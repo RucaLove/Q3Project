@@ -15,7 +15,7 @@
   - RUCA: Git Master
   - DEREK: Designer
   - KEVIN:
-  -  G:
+  -  G: Learn server side/ python functionality
   - CHRISTIAN: Scrum master
 <img style="height:250px;"src="http://illustratedagile.com/files/2012/02/scrum-master.jpg?w=150 )">
 <img style="height:250px;"src="http://agilemodeling.com/images/AMDD.gif">
@@ -71,14 +71,32 @@
     - Advanced Javascript
     - Server-Side (wanna to attack)
   - What is everyone’s schedule for the duration of the project time?
-G: Friday ( daughters got a dr)
 DEREK: work Sunday @ 3:00pm-10:00pm
 RUCA: ~ 2:00pm let out dog
 CHRISTIAN: N/A
 ---
-#### 3. Wireframe the app using crazy 8’s
-  - Which features are for MVP (Minimal Viable Product):
-  - Which features are a STRETCH:
+#### 3. Product:
+- Which features are for MVP (Minimal Viable Product):
+FRONT_END VIEWABLE STUFF
+  - Create User Profile:
+    - Add Profile Picture
+    - Add Bio/ Summary
+      - _Contact info_
+    - Creation date(member since '99)    
+    - Student Badge
+  - POST:
+    - CRUD
+    - Allow User to upload image
+    - Description
+    - Other User Like post
+    - Other User Add comment on post
+- Which features are a STRETCH:
+  - Like a comment
+  - Reply to a comment
+  - Authorization to verify good comments (by PROFESSIONAL or Moderator )
+  - DB of stick-figures with correct form (108)
+    - Overlay stick-figure with correct form over the clients image (jquery / animation on button click)
+  - Success animation if form is correct
 ---
 #### 4. Decide the final wire frame and draw more detailed pages ---- USER STORIES
   - Exactly what information/features will be available on each page?
@@ -112,4 +130,5 @@ CHRISTIAN: N/A
   - Make a prioritized To-Do list (Back log)
   - Decide iteration cycles and sprints
   - What will a day look like?
+---
 #### 9. Begin
