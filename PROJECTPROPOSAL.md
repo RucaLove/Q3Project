@@ -1,5 +1,6 @@
 ### Q3 PROJECT PROPOSAL
 Prepared for: Craig Quincy, Lead Instructor g44
+
 Prepared by: Christian Taggart, Derek Jones, Garrick George, Haley Kalb, Kevin Conrad
 
 ### PROJECT SUMMARY
