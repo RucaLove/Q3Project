@@ -1,45 +1,54 @@
 DB SCHEMA
 
 ### USERS:
-id  (int)
-username (string)
-password(encrypted) (text)
-email (string)
-profile_picture_user (text)
-biography/summary (string)
+* id (int)
+* username (string)
+* password (encrypted) (text)
+* email (string)
+* profile_picture_img (text)
+* bio (string)
+* administrator (boolean)
+* moderator (boolean)
+* professional (boolean)
+* verified_user (boolean)
+* created_at
+* updated_at
 
 ### POSTS:
-id  (int)
-user_id  (int) (JOIN USERS TABLE)
-user_pose_picture_url (text) (?JOIN USERS TABLE?)
-description/ Content (string)
-pose_id  (int) (join to pose table)
+* id (int)
+* post_img (string)
+* post_video (string)
+* description (string)
+* user.id (int) (JOIN USERS TABLE)
+* pose.id (int) (JOIN POSE TABLE)
+* created_at
+* updated_at
 
 ### POST.LIKES
-id (int)
-post_id  (int) (join POSTS)
-user_id  (int) (join USERS)
+* id (int)
+* post.id (int) (JOIN POSTS)
+* user.id (int) (JOIN USERS)
 
-### POSE (DB OF STATIC CORRECT FORM PHOTOS)
-id  (int)
-pose_picture_url (text)
+### POSES (DB OF STATIC CORRECT FORM PHOTOS)
+* id (int)
+* pose_name
+* pose_img (string)
+* difficulty_level
+* style (standing, seated, etc.)
+* chakra
+* description
 
 ### COMMENT (join POSTS)
-id (int)
-content (?IMG UPLOAD?)
-  content.text (string)
-  content.image_url (text)
-user_id  (int) (join USERS)
-post_id  (int) (join POSTS)
+* id (int)
+* verified
+* comment_text
+* comment_img
+* user.id (int) (JOIN USERS)
+* post.id (int) (JOIN POSTS)
+* created_at
+* updated_at
 
 ### COMMENT.LIKES (join COMMENT)
-id (int)
-comment_id (int) (join POSTS)
-user_id (int) (join USERS)
-
-### user_auth (Authorization)
-id (int)
-user_id (JOIN USERS)
-professional (bool)
-moderator (bool)
-administrator (bool)
+* id (int)
+* comment.id (int) (JOIN POSTS)
+* user.id (int) (JOIN USERS)
