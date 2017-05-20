@@ -58,7 +58,7 @@
 - created_at (datetime)
 - updated_at (datetime)
 
-### COMMENT_LIKES:     **JOIN COMMENTS TABLE**
+### COMMENT_LIKES: **JOIN COMMENTS TABLE**
 - id  (int)
 - comment_id  (int) **JOIN POSTS TABLE**
 - user_id  (int) **JOIN USERS TABLE**
