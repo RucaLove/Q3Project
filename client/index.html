@@ -1,51 +1,97 @@
 <!DOCTYPE html>
 <html ng-app="app">
-  <head>
+
+<head>
     <meta charset="utf-8">
     <title>Yoga Buddy</title>
-  </head>
-  <body>
+    <!-- Bootstrap CSS -->
+    <link rel="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" href="/css/master.css">
+    <link rel="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" href="/css/master.css">
+    <link rel="stylesheet" href="/css/style.css">
+</head>
 
-    <navbar></navbar>
+<body>
+  <p>HER ARE THE THINGS ON THIS PAGE<p>
+    <div id="leftnav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeLeftNav()">&times;</a>
+        <navbar></navbar>
+    </div>
+    <div id="rightnav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeRightNav()">&times;</a>
+        <navbar></navbar>
+    </div>
+    <script>
+      /* Set the width of the side navigation to 250px */
+      function openLeftNav() {
+          document.getElementById("leftnav").style.width = "250px";
+          // document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+      }
 
-  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.0/angular.js"></script>
-  <script type="text/javascript">
-    angular.module("app", [])
+      /* Set the width of the side navigation to 0 */
+      function closeLeftNav() {
+          document.getElementById("leftnav").style.width = "0";
+      }
 
-      .component('navbar', {
-        controller: function () {
-          const vm = this
+      /* Set the width of the side navigation to 250px */
+      function openRightNav() {
+          document.getElementById("rightnav").style.width = "250px";
+          // document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+      }
 
-          vm.navBarProfile = function () {
-            console.log("You clicked Profile");
-          }
+      /* Set the width of the side navigation to 0 */
+      function closeRightNav() {
+          document.getElementById("rightnav").style.width = "0";
+      }
+    </script>
+    <!-- Use any element to open the sidenav -->
+    <div class="container">
+      <div class="row">
+        <div class="leftnav" id="leftnav">
+          <span onclick="openLeftNav()">Navigation</span>
+        </div>
+        <div class="rightnav" id="rightnav">
+          <span onclick="openRightNav()">Navigation</span>
+        </div>
+      </div>
+    </dvi>
 
-          vm.navBarPostures = function () {
-            console.log("You clicked postures");
-          }
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.0/angular.js"></script>
+    <script type="text/javascript">
+        angular.module("app", [])
 
-          vm.navBarSettings = function () {
-            console.log("You clicked settings");
-          }
+            .component('navbar', {
+                controller: function() {
+                    const vm = this
 
-          vm.navBarSignOut = function () {
-            console.log("You clicked Signout");
-          }
-        },
-        template:`
-        <nav>
-          <h2>Navigation!</h2>
+                    vm.navBarProfile = function() {
+                        console.log("You clicked Profile");
+                    }
+
+                    vm.navBarPostures = function() {
+                        console.log("You clicked postures");
+                    }
+
+                    vm.navBarSettings = function() {
+                        console.log("You clicked settings");
+                    }
+
+                    vm.navBarSignOut = function() {
+                        console.log("You clicked Signout");
+                    }
+                },
+                template: `
+        <nav class="navbar navbar-default navbar-fixed-side">
+          <a ng-click="$ctrl.navBarProfile()">Profile</a>
           <br>
-          <button ng-click="$ctrl.navBarProfile()">Profile</button>
+          <a ng-click="$ctrl.navBarPostures()">Postures</a>
           <br>
-          <button ng-click="$ctrl.navBarPostures()">Postures</button>
+          <a ng-click="$ctrl.navBarSettings()">Settings</a>
           <br>
-          <button ng-click="$ctrl.navBarSettings()">Settings</button>
-          <br>
-          <button ng-click="$ctrl.navBarSignOut()">Sign Out</button>
+          <a ng-click="$ctrl.navBarSignOut()">Sign Out</a>
         </nav>
       `
-    })
-  </script>
-  </body>
+            })
+    </script>
+</body>
+
 </html>
