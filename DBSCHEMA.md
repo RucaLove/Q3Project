@@ -8,20 +8,12 @@
 - email (text)
 - profile_picture_img (text)
 - bio (str)
-<!-- - administrator (bool)
-- moderator (bool)
-- professional (bool)
-- verified_user (bool) -->
-- created_at (datetime)
-- updated_at (datetime)
-
-##### user_auth (Authorization)  _JOIN USERS TABLE?_
-- id  (int)
-- user_id  (int)  **JOIN USERS TABLE**
-- administrator (bool)
+- admin (bool)
 - moderator (bool)
 - professional (bool)
 - verified_user (bool)
+- created_at (datetime)
+- updated_at (datetime)
 
 ### POSTS:
 - id (int)
@@ -44,7 +36,7 @@
 - pose_name (str)
 - pose_img (str)
 - difficulty_level (str)
-- style (str)
+- type (str)
 - description (str)
 - chakra (str)
 
