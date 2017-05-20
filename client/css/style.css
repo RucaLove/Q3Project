@@ -5,7 +5,6 @@
     position: fixed; /* Stay in place */
     z-index: 1; /* Stay on top */
     top: 0;
-    /*left: 0;*/
     /*background-color: red;*/
     overflow-x: hidden; /* Disable horizontal scroll */
     padding-top: 60px; /* Place content 60px from the top */
@@ -14,6 +13,7 @@
 
 #leftnav {
   left: 0;
+  text-align: left;
 }
 
 #rightnav {
@@ -23,6 +23,7 @@
 
 
 /* The navigation menu links */
+
 .sidenav a {
     padding: 8px 8px 8px 32px;
     text-decoration: none;
@@ -30,6 +31,19 @@
     color: #818181;
     display: block;
     transition: 0.3s
+}
+
+.image {
+   position: relative;
+}
+
+h6 {
+  position: absolute;
+  left: 0;
+  margin: 0 auto;
+  height: 50px;
+  margin-top: 8%;
+  margin-left: 20%;
 }
 
 /* When you mouse over the navigation links, change their color */
@@ -42,13 +56,16 @@
     position: absolute;
     top: 0;
     right: 25px;
+    left: 25px;
     font-size: 36px;
     margin-left: 50px;
+    margin-right: 50px;
 }
 
 /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
 #main {
     transition: margin-left .5s;
+    transition: margin-right .5s;
     padding: 20px;
 }
 
