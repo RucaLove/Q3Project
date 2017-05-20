@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html ng-app="app">
+  <head>
+    <meta charset="utf-8">
+    <title>Yoga Buddy</title>
+  </head>
+  <body>
+
+    <navbar></navbar>
+
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.0/angular.js"></script>
+  <script type="text/javascript">
+    angular.module("app", [])
+
+      .component('navbar', {
+        controller: function () {
+          const vm = this
+
+          vm.navBarProfile = function () {
+            console.log("You clicked Profile");
+          }
+
+          vm.navBarPostures = function () {
+            console.log("You clicked postures");
+          }
+
+          vm.navBarSettings = function () {
+            console.log("You clicked settings");
+          }
+
+          vm.navBarSignOut = function () {
+            console.log("You clicked Signout");
+          }
+        },
+        template:`
+        <nav>
+          <h2>Navigation!</h2>
+          <br>
+          <button ng-click="$ctrl.navBarProfile()">Profile</button>
+          <br>
+          <button ng-click="$ctrl.navBarPostures()">Postures</button>
+          <br>
+          <button ng-click="$ctrl.navBarSettings()">Settings</button>
+          <br>
+          <button ng-click="$ctrl.navBarSignOut()">Sign Out</button>
+        </nav>
+      `
+    })
+  </script>
+  </body>
+</html>
