@@ -5,6 +5,7 @@ import random
 # example function
 def hello_world(request):
     return HttpResponse("HEY YOGA")
+    query_results = yoga.objects.all()
 # the root ('/') url path defined here
 def root_page(request):
     return HttpResponse("Your in the root page d00d")
@@ -18,3 +19,7 @@ def random_number(request, max_rand=100):
 
     msg = "random number between 0 and %s : %d" % (max_rand, random_num)
     return HttpResponse(msg)
+
+def guy(request):
+    # Users.objects.raw("select profile_picture_img from yoga_users")
+    Users.objects.all()
