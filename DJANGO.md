@@ -78,5 +78,5 @@ CREATE MIGRATIONS FOLDER WITH MIGRATIONS FILE
 ```
 python3 manage.py makemigration
 python3 manage.py migrations
-python3 manage.py loaddata users.json
+python3 manage.py loaddata FIXTURE_NAME_THAT_WE_CREATED.json
 python3 manage.py fixtures
