@@ -1,6 +1,6 @@
 [
   {
-        "model": "yoga.Poses",
+        "model": "poses",
         "pk": 1,
         "fields": {
             "pose_name_english": "Mountain",
@@ -16,7 +16,7 @@
         }
     },
     {
-        "model": "yoga.Poses",
+        "model": "poses",
         "pk": 2,
         "fields": {
             "pose_name_english": "Goddess",
@@ -32,7 +32,7 @@
         }
     },
     {
-        "model": "yoga.Poses",
+        "model": "poses",
         "pk": 3,
         "fields": {
             "pose_name_english": "Squat",
@@ -48,7 +48,7 @@
         }
     },
     {
-        "model": "yoga.Poses",
+        "model": "poses",
         "pk": 4,
         "fields": {
             "pose_name_english": "Bound Angle Butterfly",
@@ -64,7 +64,7 @@
         }
     },
     {
-        "model": "yoga.Poses",
+        "model": "poses",
         "pk": 5,
         "fields": {
             "pose_name_english": "Seated Spinal Twist",
@@ -80,7 +80,7 @@
         }
     },
     {
-        "model": "yoga.Poses",
+        "model": "poses",
         "pk": 6,
         "fields": {
             "pose_name_english": "Marichi Twist",
@@ -96,7 +96,7 @@
         }
     },
     {
-        "model": "yoga.Poses",
+        "model": "poses",
         "pk": 7,
         "fields": {
             "pose_name_english": "Spinx",
@@ -112,7 +112,7 @@
         }
     },
     {
-        "model": "yoga.Poses",
+        "model": "poses",
         "pk": 8,
         "fields": {
             "pose_name_english": "Cobra",
@@ -121,14 +121,14 @@
             "pose_img": "",
             "difficulty_level": "Easy",
             "category": "Back Bends",
-            "description": "",
+            "description": "Lie on your abdomen with your arms stretched out overhead, forehead on the floor, and back of the neck lengthened. Draw the hands back until they are under the shoulders, with the elbows tuked all the way into the sides and pressing back. Relax the shoulders away from the ears and draw the shoulder blades down the back, as you lift up through the heart to prevent arching in the low back. Spread the fingers wide, using the entire hand for support, and press down. Press the pubic bone into the floor, lifting the torso to a comfortable height, using the strength of the back muscles. Legthen as you lift, so the torso moves forward as it rises up.",
             "chakra_sanskrit": "Anahata",
             "chakra_english": "Heart",
             "chakra_img": "/images/charka4.png"
         }
     },
     {
-        "model": "yoga.Poses",
+        "model": "poses",
         "pk": 9,
         "fields": {
             "pose_name_english": "Child",
@@ -137,14 +137,14 @@
             "pose_img": "",
             "difficulty_level": "Easy",
             "category": "Forward Bends",
-            "description": "",
+            "description": "Begin on all fours and allow the hips to rest back toward the heels and the torso to rest on the thighs, with the arms at the sides and the forehead resting on the earth or a prop. Relax the shoulders down away from the ears and stretch the hands gently backward, palms up. Press the pelvis back toward the heels while lengthening the spine forward. Breathe into the throat center.",
             "chakra_sanskrit": "Vishuddha",
             "chakra_english": "Throat",
             "chakra_img": "/images/charka5.png"
         }
     },
     {
-        "model": "yoga.Poses",
+        "model": "poses",
         "pk": 10,
         "fields": {
             "pose_name_english": "Seated Forward Bend",
@@ -153,14 +153,14 @@
             "pose_img": "",
             "difficulty_level": "Easy",
             "category": "Forward Bends",
-            "description": "",
+            "description": "Begin seated with the legs outstretched, hands along the side body, pressed into the earth. Hinge forward from the hip while keeping the spine neutral and clasp the feet with the hands of a tie. Relax the shoulder blades down away from the ears and lengthen the neck, aligning the head with the spine. Lengthen the torso with each inhilation and allow the torso to descend with each exhilation, maintaing the spine in a neutral position.",
             "chakra_sanskrit": "Vishuddha",
             "chakra_english": "Throat",
             "chakra_img": "/images/charka5.png"
         }
     },
     {
-        "model": "yoga.Poses",
+        "model": "poses",
         "pk": 11,
         "fields": {
             "pose_name_english": "Tree",
@@ -169,14 +169,14 @@
             "pose_img": "",
             "difficulty_level": "Easy",
             "category": "Balance",
-            "description": "",
+            "description": "Begin standing in Mountain pose. Bend the right knee and bring the sole of the right foot to the inner left thigh with the heel just below the groin. Press the sole of the foot and the inner thigh equally against each other. Press the right knee out and down, away from the center of the body, to level the pelvis. Bring the arms slowly out to the sides at shoulder height and then overhead. Lengthen up through the crown of the head and gaze on the horizon with the eyes, jaw, and forehead relaxed.",
             "chakra_sanskrit": "Ajna",
             "chakra_english": "Third Eye ",
             "chakra_img": "/images/charka6.png"
         }
     },
     {
-        "model": "yoga.Poses",
+        "model": "poses",
         "pk": 12,
         "fields": {
             "pose_name_english": "Dancer",
@@ -185,14 +185,14 @@
             "pose_img": "",
             "difficulty_level": "Advanced",
             "category": "Balance",
-            "description": "",
+            "description": "Begin in Mountain pose. Engage and lengthen the torso, pressing up through the crown of the head. Ground fully into the left leg and foot as you bend the right knee to bring the heel toward the right buttock. Clasp the right ankle from the inside with the right hand, keeping the knees together. Bring the left arm overhead and lengthen through the fingertips as you draw the arm bone back into the shoulder joint. Press the top of the right foot into the hand and the sole of the foot back and up, naturally bringing the torso forward. Keep the hips relatively square, so that the right leg is coming straight back behind the body and not opening out to the side. Keep the gaze straight forward with the neck lengthened and the eyes soft.",
             "chakra_sanskrit": "Ajna",
             "chakra_english": "Third Eye",
             "chakra_img": "/images/charka6.png"
         }
     },
     {
-        "model": "yoga.Poses",
+        "model": "poses",
         "pk": 13,
         "fields": {
             "pose_name_english": "Half Shoulder Stand / Shoulder Stand",
@@ -201,15 +201,15 @@
             "pose_img": "",
             "difficulty_level": "Advanced",
             "category": "Inversions",
-            "description": "",
+            "description": "Begin lying on your back with the body lengthened. Place the arms at the sides with the palms down and relax the shoulders away from the ears. Lift the legs straight into the air at a 90 degree angle. Place the hands under the backs of the hips. Press the elbows into the earth and, using hands to support the pelvis, roll the hips up off the earth. Position the hands under the pelvis so that the base of the palm cups the iliac crest to support the weight of the body evenly while tractioning the spine. Legnthen the legs out, allowing them to rest at about a 70 degree angle with the ankles directly above the face. Align the forearms parallel to each other and distribute the weight evenly across both hands. If there is too much pressure on the arms or hands, allow the legs to angle more toward the head. Press the shoulders outward away from each other to create space between the shoulder blades and allow greater space and freedom for the neck. Come to the tops of the shoulders by walking the elbows toward each other.",
             "chakra_sanskrit": "Sahasrara",
             "chakra_english": "Crown",
             "chakra_img": "/images/charka7.png"
         }
     },
     {
-        "model": "yoga.Poses",
-        "pk": 13,
+        "model": "poses",
+        "pk": 14,
         "fields": {
             "pose_name_english": "Hand Stand",
             "pose_name_sankrit": "Adho Mukha Vriksasana",
@@ -217,7 +217,7 @@
             "pose_img": "",
             "difficulty_level": "Advanced",
             "category": "Inversions",
-            "description": "",
+            "description": "Begin in Downward Facing Dog with the head toward the wall and the fingertips about 4-6 inches away from the wall. Press deeply into the support of the hands, especially into the webs between the index fingers and thumbs. Draw the shoulders away from the ears and the shoulder blades toward the pelvis as you completely relax the neck. Widen the shoulders to create space. Lift the hips high into the air and lift the heels to come up onto the toes. Lift one leg at a time onto the wall, for support. Lengthen and activate the entire body, pressing through the soles of the feet as the head and neck remain soft and relaxed. Lengthen up through the torso as you press the hands down into the earth to bring the body away from the wall. Lift the navel toward the pubic bone to create space in the low back and stabilize the hips and pelvis.",
             "chakra_sanskrit": "Sahasrara",
             "chakra_english": "Crown",
             "chakra_img": "/images/charka7.png"
