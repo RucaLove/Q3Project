@@ -77,7 +77,7 @@ WSGI_APPLICATION = 'yogapp.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'yogappdb',
+        'NAME': 'yogapp',
     }
 }
 

@@ -18,7 +18,7 @@ from django.conf.urls import url
 # load urls for administration site
 from django.contrib import admin
 # load in functions created in my custom views file
-from yogapp.views import hello_world, root_page, random_number, guy
+from yogapp.views import guy
 
 # The following lists all urls that we want to tie to specific functions
 # The r'^admin/' is a regex
@@ -30,7 +30,5 @@ from yogapp.views import hello_world, root_page, random_number, guy
 # (\d+)/ is allowing us to pass a number in to the url params
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
-    url(r'^helloworld/$', hello_world),
     url(r'^$', guy),
-    url(r'^random/(\d+)/$', random_number),
 ]
