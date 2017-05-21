@@ -83,3 +83,17 @@ python3 manage.py fixtures
 
 /**/HOW TO ROLL BACK MIGRATIONS
 python3 manage.py migrate yoga zero
+```
+
+
+```
+from django.db import connection, transaction
+from django.http import HttpResponse
+
+@transaction.atomic
+def guy(request):
+    cursor = connection.cursor()
+    cursor.execute("SELECT profile_picture_img FROM yoga_users WHERE id = 1")
+    result = cursor.fetchone()
+    return HttpResponse(result)
+```
