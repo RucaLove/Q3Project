@@ -9,7 +9,7 @@ class Users(models.Model):
     email = models.CharField(max_length=500)
     profile_picture_img = models.CharField(max_length=500)
     bio = models.CharField(max_length=500)
-    admin = models.BooleanField(default=False)
+    Nadmin = models.BooleanField(default=False)
     moderator = models.BooleanField(default=False)
     professional = models.BooleanField(default=False)
     verified_user = models.BooleanField(default=False)
