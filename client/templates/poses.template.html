@@ -1,0 +1,57 @@
+<!-- this is where I will be putting all of my components -->
+<div class="com-md-12">
+  <!-- Component1:Pose Co -->
+  <div class="well" id='poseContainer'>
+    <!-- this one below here is styled to be Pose Photo -->
+    <div class="media-left">
+      <img src="fillerProfile.png" alt="PosePhoto" class="posePhoto">
+    </div>
+
+
+    <!-- this div contains the bio -->
+
+    <div class="media-body">
+      <div class="">
+        <h2>NAME OF POSE</h2>
+        <p>Bacon Bacon Bacon Bacon Bacon Bacon Bacon Bacon Bacon Bacon Bacon Bacon Bacon Bacon Bacon Bacon Bacon Bacon Bacon Bacon Bacon Bacon Bacon Bacon Bacon Bacon Bacon Bacon Bacon Bacon Bacon Bacon Bacon </p>
+      </div>
+      <!-- this div contains the Stats -->
+      <div class="">
+        <h2>Discription</h2>
+        <p>Bacon Bacon Bacon Bacon Bacon Bacon Bacon Bacon Bacon Bacon Bacon Bacon Bacon Bacon Bacon Bacon Bacon Bacon Bacon Bacon Bacon Bacon Bacon Bacon Bacon Bacon Bacon Bacon Bacon Bacon Bacon Bacon Bacon</p>
+      </div>
+
+
+    </div>
+    <!-- this div tag is styled to contain chakra pictures, all on the right side of the container-->
+
+      <div class="media-right">
+        <img src="http://www.bladesandbows.co.uk/ekmps/shops/bladesbows/images/six-point-ball-tipped-sheriff-badge-4641-p.jpg" alt="chakra" class="chakraPhoto">
+      </div>
+      <div class="media-right">
+        <img src="http://www.bladesandbows.co.uk/ekmps/shops/bladesbows/images/six-point-ball-tipped-sheriff-badge-4641-p.jpg" alt="chakra" class="chakraPhoto">
+      </div><div class="media-right">
+        <img src="http://www.bladesandbows.co.uk/ekmps/shops/bladesbows/images/six-point-ball-tipped-sheriff-badge-4641-p.jpg" alt="chakra" class="chakraPhoto">
+      </div><div class="media-right">
+        <img src="http://www.bladesandbows.co.uk/ekmps/shops/bladesbows/images/six-point-ball-tipped-sheriff-badge-4641-p.jpg" alt="chakra" class="chakraPhoto">
+      </div><div class="media-right">
+        <img src="http://www.bladesandbows.co.uk/ekmps/shops/bladesbows/images/six-point-ball-tipped-sheriff-badge-4641-p.jpg" alt="chakra" class="chakraPhoto">
+      </div>
+
+
+    </div>
+
+  <button onclick="changeToBlue()">change to blue</button>
+  <button onclick="flexableColor()">change to red/yellow</button>
+
+</div>
+
+<script type="text/javascript">
+  function changeToBlue() {
+    document.getElementById("poseContainer").style.background = "lightblue";
+  }
+
+  function flexableColor() {
+    document.getElementById("poseContainer").style.background = "linear-gradient(red, yellow)";
+  }
+</script>

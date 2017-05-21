@@ -74,3 +74,14 @@ h6 {
     .sidenav {padding-top: 15px;}
     .sidenav a {font-size: 18px;}
 }
+
+/*CSS FOR POSES TEMPLATE*/
+.posePhoto{
+  width: 200px;
+  height: 200px;
+
+}
+.chakraPhoto{
+  width: 80px;
+  height: 80px;
+}
