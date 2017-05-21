@@ -10,7 +10,7 @@ python manage.py runserver
 ```
 ##### Create polls app
 ```sh
-python manage.py startapp polls
+python manage.py startapp secondappname
 ```
 
 #### To add functionality to url endpoints:
@@ -73,3 +73,10 @@ File: **settings.py**
 #SETTING UP PATH FOR STATIC FILES
 STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 ```
+
+CREATE MIGRATIONS FOLDER WITH MIGRATIONS FILE
+```
+python3 manage.py makemigration
+python3 manage.py migrations
+python3 manage.py loaddata users.json
+python3 manage.py fixtures

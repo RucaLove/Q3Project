@@ -17,12 +17,16 @@ class Users(models.Model):
     updated_at = models.DateTimeField()
 
 class Poses(models.Model):
-    pose_name = models.CharField(max_length=500)
+    pose_name_english = models.CharField(max_length=50)
+    pose_name_sankrit = models.CharField(max_length=50)
+    pose_name_sankrit_characters = models.CharField(max_length=500)
     pose_img = models.CharField(max_length=500)
     difficulty_level = models.CharField(max_length=500)
     category = models.CharField(max_length=500)
     description = models.CharField(max_length=500)
-    chakra = models.CharField(max_length=500)
+    chakra_sanskrit = models.CharField(max_length=50)
+    chakra_english = models.CharField(max_length=50)
+    chakra_img = models.CharField(max_length=50)
 
 class Posts(models.Model):
     title = models.CharField(max_length=50)
