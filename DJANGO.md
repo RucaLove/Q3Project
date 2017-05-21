@@ -2,7 +2,7 @@
 
 ##### create a Django project/app:
 ```sh
-django-admin startproject yogaforya
+django-admin startproject yogapp
 ```
 ##### Run Django server:
 ```sh
