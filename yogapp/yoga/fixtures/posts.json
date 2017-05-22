@@ -1,7 +1,6 @@
 [
   {
     "model": "yoga.Posts",
-    "pk": 1,
     "fields": {
       "title": "Back Pain",
       "user_id" : 1,
@@ -15,7 +14,6 @@
   },
   {
     "model": "yoga.Posts",
-    "pk": 2,
     "fields": {
       "title": "Help with my hips!",
       "user_id" : 2,
@@ -29,7 +27,6 @@
   },
   {
     "model": "yoga.Posts",
-    "pk": 3,
     "fields": {
       "title": "Stretching advice.",
       "user_id" : 2,

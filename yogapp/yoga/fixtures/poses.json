@@ -1,11 +1,10 @@
 [
   {
-        "model": "poses",
-        "pk": 1,
+        "model": "yoga.Poses",
         "fields": {
             "pose_name_english": "Mountain",
-            "pose_name_sankrit": "Tadasana",
-            "pose_name_sankrit_characters": "",
+            "pose_name_sanskrit": "Tadasana",
+            "pose_name_sanskrit_characters": "",
             "pose_img": "",
             "difficulty_level": "Easy",
             "category": "Standing Poses",
@@ -16,12 +15,11 @@
         }
     },
     {
-        "model": "poses",
-        "pk": 2,
+        "model": "yoga.Poses",
         "fields": {
             "pose_name_english": "Goddess",
-            "pose_name_sankrit": "Deviasana",
-            "pose_name_sankrit_characters": "",
+            "pose_name_sanskrit": "Deviasana",
+            "pose_name_sanskrit_characters": "",
             "pose_img": "",
             "difficulty_level": "Easy",
             "category": "Standing Poses",
@@ -32,12 +30,11 @@
         }
     },
     {
-        "model": "poses",
-        "pk": 3,
+        "model": "yoga.Poses",
         "fields": {
             "pose_name_english": "Squat",
-            "pose_name_sankrit": "Malasana",
-            "pose_name_sankrit_characters": "",
+            "pose_name_sanskrit": "Malasana",
+            "pose_name_sanskrit_characters": "",
             "pose_img": "",
             "difficulty_level": "Moderate",
             "category": "Hip Openers",
@@ -48,12 +45,11 @@
         }
     },
     {
-        "model": "poses",
-        "pk": 4,
+        "model": "yoga.Poses",
         "fields": {
             "pose_name_english": "Bound Angle Butterfly",
-            "pose_name_sankrit": "Baddha Konasana",
-            "pose_name_sankrit_characters": "",
+            "pose_name_sanskrit": "Baddha Konasana",
+            "pose_name_sanskrit_characters": "",
             "pose_img": "",
             "difficulty_level": "Easy",
             "category": "Hip Openers",
@@ -64,12 +60,11 @@
         }
     },
     {
-        "model": "poses",
-        "pk": 5,
+        "model": "yoga.Poses",
         "fields": {
             "pose_name_english": "Seated Spinal Twist",
-            "pose_name_sankrit": "Ardha Matsyendrasana",
-            "pose_name_sankrit_characters": "",
+            "pose_name_sanskrit": "Ardha Matsyendrasana",
+            "pose_name_sanskrit_characters": "",
             "pose_img": "",
             "difficulty_level": "Moderate",
             "category": "Twists",
@@ -80,12 +75,11 @@
         }
     },
     {
-        "model": "poses",
-        "pk": 6,
+        "model": "yoga.Poses",
         "fields": {
             "pose_name_english": "Marichi Twist",
-            "pose_name_sankrit": "Parivritta Marichyasana",
-            "pose_name_sankrit_characters": "",
+            "pose_name_sanskrit": "Parivritta Marichyasana",
+            "pose_name_sanskrit_characters": "",
             "pose_img": "",
             "difficulty_level": "Easy",
             "category": "Twists",
@@ -96,12 +90,11 @@
         }
     },
     {
-        "model": "poses",
-        "pk": 7,
+        "model": "yoga.Poses",
         "fields": {
             "pose_name_english": "Spinx",
-            "pose_name_sankrit": "Ardha Bhujangasana",
-            "pose_name_sankrit_characters": "",
+            "pose_name_sanskrit": "Ardha Bhujangasana",
+            "pose_name_sanskrit_characters": "",
             "pose_img": "",
             "difficulty_level": "Easy",
             "category": "Back Bends",
@@ -112,12 +105,11 @@
         }
     },
     {
-        "model": "poses",
-        "pk": 8,
+        "model": "yoga.Poses",
         "fields": {
             "pose_name_english": "Cobra",
-            "pose_name_sankrit": "Bhujangasana",
-            "pose_name_sankrit_characters": "",
+            "pose_name_sanskrit": "Bhujangasana",
+            "pose_name_sanskrit_characters": "",
             "pose_img": "",
             "difficulty_level": "Easy",
             "category": "Back Bends",
@@ -128,12 +120,11 @@
         }
     },
     {
-        "model": "poses",
-        "pk": 9,
+        "model": "yoga.Poses",
         "fields": {
             "pose_name_english": "Child",
-            "pose_name_sankrit": "Garbhasasana",
-            "pose_name_sankrit_characters": "",
+            "pose_name_sanskrit": "Garbhasasana",
+            "pose_name_sanskrit_characters": "",
             "pose_img": "",
             "difficulty_level": "Easy",
             "category": "Forward Bends",
@@ -144,12 +135,11 @@
         }
     },
     {
-        "model": "poses",
-        "pk": 10,
+        "model": "yoga.Poses",
         "fields": {
             "pose_name_english": "Seated Forward Bend",
-            "pose_name_sankrit": "Paschimottanasana",
-            "pose_name_sankrit_characters": "",
+            "pose_name_sanskrit": "Paschimottanasana",
+            "pose_name_sanskrit_characters": "",
             "pose_img": "",
             "difficulty_level": "Easy",
             "category": "Forward Bends",
@@ -160,12 +150,11 @@
         }
     },
     {
-        "model": "poses",
-        "pk": 11,
+        "model": "yoga.Poses",
         "fields": {
             "pose_name_english": "Tree",
-            "pose_name_sankrit": "Vriksasana",
-            "pose_name_sankrit_characters": "",
+            "pose_name_sanskrit": "Vriksasana",
+            "pose_name_sanskrit_characters": "",
             "pose_img": "",
             "difficulty_level": "Easy",
             "category": "Balance",
@@ -176,12 +165,11 @@
         }
     },
     {
-        "model": "poses",
-        "pk": 12,
+        "model": "yoga.Poses",
         "fields": {
             "pose_name_english": "Dancer",
-            "pose_name_sankrit": "Natarajasana",
-            "pose_name_sankrit_characters": "",
+            "pose_name_sanskrit": "Natarajasana",
+            "pose_name_sanskrit_characters": "",
             "pose_img": "",
             "difficulty_level": "Advanced",
             "category": "Balance",
@@ -192,12 +180,11 @@
         }
     },
     {
-        "model": "poses",
-        "pk": 13,
+        "model": "yoga.Poses",
         "fields": {
             "pose_name_english": "Half Shoulder Stand / Shoulder Stand",
-            "pose_name_sankrit": "Ardha Savangasana / Sarvangasana",
-            "pose_name_sankrit_characters": "",
+            "pose_name_sanskrit": "Ardha Savangasana / Sarvangasana",
+            "pose_name_sanskrit_characters": "",
             "pose_img": "",
             "difficulty_level": "Advanced",
             "category": "Inversions",
@@ -208,12 +195,11 @@
         }
     },
     {
-        "model": "poses",
-        "pk": 14,
+        "model": "yoga.Poses",
         "fields": {
             "pose_name_english": "Hand Stand",
-            "pose_name_sankrit": "Adho Mukha Vriksasana",
-            "pose_name_sankrit_characters": "",
+            "pose_name_sanskrit": "Adho Mukha Vriksasana",
+            "pose_name_sanskrit_characters": "",
             "pose_img": "",
             "difficulty_level": "Advanced",
             "category": "Inversions",
@@ -224,12 +210,11 @@
         }
     },
     {
-        "model": "poses",
-        "pk": 15,
+        "model": "yoga.Poses",
         "fields": {
             "pose_name_english": "Hero II",
-            "pose_name_sankrit": "Virabhadrasana II",
-            "pose_name_sankrit_characters": "",
+            "pose_name_sanskrit": "Virabhadrasana II",
+            "pose_name_sanskrit_characters": "",
             "pose_img": "",
             "difficulty_level": "Easy",
             "category": "Standing Poses",
@@ -240,12 +225,11 @@
         }
     },
     {
-        "model": "poses",
-        "pk": 16,
+        "model": "yoga.Poses",
         "fields": {
             "pose_name_english": "Hero I",
-            "pose_name_sankrit": "Virabhadrasana I",
-            "pose_name_sankrit_characters": "",
+            "pose_name_sanskrit": "Virabhadrasana I",
+            "pose_name_sanskrit_characters": "",
             "pose_img": "",
             "difficulty_level": "Easy",
             "category": "Standing Poses",
@@ -256,12 +240,11 @@
         }
     },
     {
-        "model": "poses",
-        "pk": 17,
+        "model": "yoga.Poses",
         "fields": {
             "pose_name_english": "Lateral Angle",
-            "pose_name_sankrit": "Parsvakonasana",
-            "pose_name_sankrit_characters": "",
+            "pose_name_sanskrit": "Parsvakonasana",
+            "pose_name_sanskrit_characters": "",
             "pose_img": "",
             "difficulty_level": "Moderate",
             "category": "Standing Poses",
@@ -272,12 +255,11 @@
         }
     },
     {
-        "model": "poses",
-        "pk": 18,
+        "model": "yoga.Poses",
         "fields": {
             "pose_name_english": "Triangle",
-            "pose_name_sankrit": "Trikonasana",
-            "pose_name_sankrit_characters": "",
+            "pose_name_sanskrit": "Trikonasana",
+            "pose_name_sanskrit_characters": "",
             "pose_img": "",
             "difficulty_level": "Moderate",
             "category": "Standing Poses",
@@ -288,12 +270,11 @@
         }
     },
     {
-        "model": "poses",
-        "pk": 19,
+        "model": "yoga.Poses",
         "fields": {
             "pose_name_english": "Separate Leg Head to Knee",
-            "pose_name_sankrit": "Parsvottanasana",
-            "pose_name_sankrit_characters": "",
+            "pose_name_sanskrit": "Parsvottanasana",
+            "pose_name_sanskrit_characters": "",
             "pose_img": "",
             "difficulty_level": "Moderate",
             "category": "Standing Poses",
@@ -304,12 +285,11 @@
         }
     },
     {
-        "model": "poses",
-        "pk": 20,
+        "model": "yoga.Poses",
         "fields": {
             "pose_name_english": "Rotated Lateral Angle",
-            "pose_name_sankrit": "Parivritta Parsvakonasana",
-            "pose_name_sankrit_characters": "",
+            "pose_name_sanskrit": "Parivritta Parsvakonasana",
+            "pose_name_sanskrit_characters": "",
             "pose_img": "",
             "difficulty_level": "Moderate",
             "category": "Standing Poses",
@@ -320,12 +300,11 @@
         }
     },
     {
-        "model": "poses",
-        "pk": 21,
+        "model": "yoga.Poses",
         "fields": {
             "pose_name_english": "Rotated Triangle",
-            "pose_name_sankrit": "Parivritta Trikonasana",
-            "pose_name_sankrit_characters": "",
+            "pose_name_sanskrit": "Parivritta Trikonasana",
+            "pose_name_sanskrit_characters": "",
             "pose_img": "",
             "difficulty_level": "Advanced",
             "category": "Standing Poses",
