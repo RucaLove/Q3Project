@@ -2,14 +2,14 @@
   'use strict'
 
   angular.module('app')
-    .component('users', {
-      templateUrl: '/templates/users.template.html',
-      controller: UsersController,
+    .component('posts', {
+      templateUrl: '/templates/posts.template.html',
+      controller: postsController,
     })
 
-  UsersController.$inject = ['UsersServices']
+  postsController.$inject = ['PostService']
 
-  function UsersController(UsersServices) {
+  function postsController(PostService) {
     const vm = this
     vm.$onInit = onInit
     vm.likes = likes
@@ -17,29 +17,28 @@
     vm.sortPosts = sortPosts
 
     function onInit() {
-      UsersServices.allPosts() // Grabs all Posts
+      PostService.allPosts() // Grabs all Posts
         .then((all) => {
-          vm.users = all
+          vm.posts = all
         })
     }
 
     function sortPosts() {
-      UsersServices.sorted()
+      PostService.sorted()
           .then((all) => {
             return all
           })
     }
 
     function sort() { // WORKS BUT YOU HAVE TO CLICK IT
-      UsersServices.sorted()
+      PostService.sorted()
       .then((all) => {
-        vm.users = all
+        vm.posts = all
       })
     }
 
-
-    function likes(user, dir) {
-      UsersServices.$like(user, dir) // Like functionality
+    function likes(post, dir) {
+      PostService.$like(post, dir) // Like functionality
     }
 
   } // END CONTROLLER

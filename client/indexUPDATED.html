@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html ng-app="app">
+
+<head>
+  <meta charset="utf-8">
+  <title>CPT Components</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes">
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <link href="https://fonts.googleapis.com/css?family=IM+Fell+Double+Pica" rel="stylesheet">
+  <!-- THIS IS THE BOOTSTRAP CSS FILE -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <!-- THIS IS MY CUSTOM CSS FILE -->
+  <link rel="stylesheet" href="/css/app.css">
+  <base href="/">
+</head>
+
+<body>
+
+  <!-- UI-ROUTER  -->
+  <ui-view></ui-view>
+
+  <!-- THIS ALLOWS USE OF ANGULAR -->
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+  <!-- UI-ROUTER -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/1.0.3/angular-ui-router.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.18.1/moment.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-moment/1.0.1/angular-moment.js"></script>
+
+  <!-- THIS IS MY CUSTOM SCRIPTS THAT HOUSES MY ANGULAR CODE -->
+  <script src="/js/app.module.js"></script>
+  <script src="/js/app.config.js"></script>
+  <script src="/js/blog.services.js"></script>
+  <script src="/js/comment.services.js"></script>
+  <script src="/js/app.component.js"></script>
+  <script src="/js/posts.component.js"></script>
+  <script src="/js/editPost.component.js"></script>
+  <script src="/js/newPost.component.js"></script>
+  <script src="/js/comments.component.js"></script>
+  <script src="/js/searchSort.component.js"></script>
+</body>
+
+</html>

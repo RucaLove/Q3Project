@@ -1,0 +1,30 @@
+<div ng-if="$ctrl.open">
+  <div class="col-md-8">
+    <form name="$ctrl.new" ng-submit="$ctrl.new.$valid && $ctrl.newPost()" novalidate>
+      <div class="form-group" ng-class="{'has-error': $ctrl.new.title.$touched && $ctrl.new.title.$invalid}">
+        <label for="title">Title</label>
+        <span ng-show="$ctrl.new.title.$invalid && $ctrl.new.title.$touched">Please enter a title.</span>
+        <input id="title" class="form-control" name="title" ng-model="$ctrl.post.title" type="text" required>
+      </div>
+      <div ng-class="{'has-error': $ctrl.new.body.$invalid && $ctrl.new.body.$touched}">
+        <label for="body">Description</label>
+        <span ng-show="$ctrl.new.body.$invalid && $ctrl.new.body.$touched">Your post must have content.</span>
+        <textarea ng-model="$ctrl.post.body" id="body" class="form-control" name="body" type="text" required></textarea>
+      </div>
+      <div ng-class="{'has-error': $ctrl.new.author.$invalid && $ctrl.new.author.$touched}">
+        <label for="author">Author</label>
+        <span class="has-error" ng-show="$ctrl.new.author.$invalid && $ctrl.new.author.$touched">I need to know who's post this is. Please add your name.</span>
+        <input id="author" ng-model="$ctrl.post.author" class="form-control" name="author" type="text" required>
+      </div>
+      <div ng-class="{'has-error': $ctrl.new.url.$invalid && $ctrl.new.url.$touched}">
+        <label for="image-url">Image URL</label>
+        <span ng-show="$ctrl.new.url.$invalid && $ctrl.new.url.$touched">This blog is for pictures!</span>
+        <input ng-model="$ctrl.post.image_url" id="image-url" class="form-control" name="url" type="text" required>
+      </div>
+      <div class="form-group">
+        <button type="submit" class="btn btn-primary">Create Post</button>
+      </div>
+    </form>
+  </div>
+</div>
+<!-- END CREATE POST FORM -->

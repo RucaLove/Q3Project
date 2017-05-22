@@ -7,26 +7,26 @@
       controller: editController
     })
 
-  editController.$inject = ['PostsService']
+  editController.$inject = ['PostService']
 
-  function editController(PostsService) {
+  function editController(PostService) {
     const vm = this
     vm.$onInit = onInit
     vm.editPost = editPost
     vm.deleter = deleter
 
     function onInit(id) {
-      // PostsService.$Post(id).then((editable) => { // Grabs Post by ID
+      // PostService.$Post(id).then((editable) => { // Grabs Post by ID
       //   vm.post = editable
       // })
     }
 
     function editPost(post) {
-      // PostsService.edit(vm.post) // Patches Post by ID
+      // PostService.edit(vm.post) // Patches Post by ID
     }
 
     function deleter(id) {
-      // PostsService.$del(id) // Deletes Post by ID
+      // PostService.$del(id) // Deletes Post by ID
     }
 
   } // END editController

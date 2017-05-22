@@ -4,12 +4,12 @@
   angular.module('app')
     .component('posts', {
       templateUrl: '/templates/posts.template.html',
-      controller: postsController,
+      controller: PostsController,
     })
 
-  postsController.$inject = ['PostService']
+  PostsController.$inject = ['PostsService']
 
-  function postsController(PostService) {
+  function PostsController(PostsService) {
     const vm = this
     vm.$onInit = onInit
     vm.likes = likes
@@ -17,29 +17,33 @@
     vm.sortPosts = sortPosts
 
     function onInit() {
-      PostService.allPosts() // Grabs all Posts
+      PostsService.allPosts() // Grabs all Posts
         .then((all) => {
           vm.posts = all
         })
     }
 
-    function sortPosts() {
-      PostService.sorted()
-          .then((all) => {
-            return all
-          })
-    }
-
-    function sort() { // WORKS BUT YOU HAVE TO CLICK IT
-      PostService.sorted()
-      .then((all) => {
-        vm.posts = all
-      })
-    }
-
     function likes(post, dir) {
-      PostService.$like(post, dir) // Like functionality
+      PostsService.$like(post, dir) // Like functionality
     }
+
+  // THIS IS BROKEN ATM
+
+    // function sortPosts() {
+    //   PostsService.sorted()
+    //       .then((all) => {
+    //         return all
+    //       })
+    // }
+    //
+    // function sort() { // WORKS BUT YOU HAVE TO CLICK IT
+    //   PostsService.sorted()
+    //   .then((all) => {
+    //     vm.posts = all
+    //   })
+    // }
+
+
 
   } // END CONTROLLER
 }());

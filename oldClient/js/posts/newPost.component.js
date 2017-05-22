@@ -7,15 +7,15 @@
       controller: newPostController
     })
 
-  newPostController.$inject = ['PostsService']
+  newPostController.$inject = ['PostService']
 
-  function newPostController(PostsService) {
+  function newPostController(PostService) {
     const vm = this
     vm.open = true
     vm.newPost = newPost
 
     function newPost() {
-      // PostsService.newPost(vm.post) // Makes a New Post
+      // PostService.newPost(vm.post) // Makes a New Post
     }
 
   } // END newPostController

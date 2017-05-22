@@ -1,0 +1,54 @@
+<search-sort></search-sort>
+<!-- <div>
+  <p><a ng-click="$ctrl.sort()" class="btn btn-info">SORT</a></p>
+</div> -->
+<div class="row">
+  <div class="col-md-12">
+
+    <div class="well" ng-repeat="post in $ctrl.posts | filter:search | orderBy:-vote_count">
+
+      <div class="media-left">
+<a ui-sref="app.comment({id: post.id})">
+        <img class="media-object" ng-src="{{ post.post_img }}">
+</a>
+        <!-- THIS IS THE IMAGE ASSOCIATED WITH THE POST -->
+        <p class="text-center">
+          <a ui-sref="app.edit({id: post.id})">Edit</a>
+
+        </p>
+      </div>
+      <div class="media-body">
+        <h4 class="media-heading">
+        {{ post.title }}
+          |
+          <a ng-click="$ctrl.likes(post, 1)"><i class="glyphicon glyphicon-arrow-up"></i></a>
+          <a ng-click="$ctrl.likes(post, 0)"><i class="glyphicon glyphicon-arrow-down"></i></a>
+
+      <!-- WE DO NOT HAVE A POST VOTE COUNT -->
+            {{ post.vote_count }}
+              </h4>
+          <span class="has-error" ng-if="post.negative">No Negativity here man.</span>
+
+        <div class="text-right">
+          {{ post.author }}
+        </div>
+        <p>
+          {{ post.body }}
+        </p>
+        <span am-time-ago=" post.created_at"></span> |
+        <i class="glyphicon glyphicon-comment"></i>
+        <!-- TRUE DISPLAYS THE COMMENT(S) -->
+        <a ui-sref="app.comment({id: post.id})">
+            {{ post.comments.length}}
+            <ng-pluralize count="post.comments.length" when="{'0': 'Comments', 'one': 'Comment', 'other': 'Comments'}"></ng-pluralize>
+          </a>
+
+      </div>
+      <!-- media body(POST title, likes, user_id, description) /div -->
+    </div>
+    <!-- ng-repeat for all posts /div -->
+  </div>
+  <!--  col-md-12 /div -->
+</div>
+<!-- row /div -->
+</div>
