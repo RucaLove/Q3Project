@@ -57,7 +57,7 @@ ROOT_URLCONF = 'yogapp.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': ['../clint'],
+        'DIRS': ['../client'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
