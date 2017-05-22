@@ -19,6 +19,7 @@ from django.conf.urls import url
 from django.contrib import admin
 # load in functions created in my custom views file
 from yogapp.views import guy
+from django.views.generic import TemplateView
 # # REST framework API
 # from django.contrib.auth.models import User
 # from rest_framework import routers, serializers, viewsets
@@ -48,7 +49,7 @@ from yogapp.views import guy
 # (\d+)/ is allowing us to pass a number in to the url params
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
-    url(r'^$', guy), # Splash page
+    url(r'^$', TemplateView.as_view(template_name='index.html')), # Splash page
     # url(r'^posts$', get_all_posts), # get all posts (feed)
     # url(r'^posts/(\d+)/$', get_post_by_id), # get individual post (from feed or profile)
     # url(r'^users/(\d+)/$', get_user_by_id), # get individual user profile (needs AUTH)
