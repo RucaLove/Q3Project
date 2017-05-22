@@ -9,12 +9,12 @@ class Users(models.Model):
     email = models.CharField(max_length=500)
     profile_picture_img = models.CharField(max_length=500, blank=True, null=True)
     bio = models.CharField(max_length=500)
-    admin = models.BooleanField(default=False)
-    moderator = models.BooleanField(default=False)
-    professional = models.BooleanField(default=False)
-    verified_user = models.BooleanField(default=False)
-    created_at = models.DateTimeField()
-    updated_at = models.DateTimeField()
+    admin = models.NullBooleanField(default=False)
+    moderator = models.NullBooleanField(default=False)
+    professional = models.NullBooleanField(default=False)
+    verified_user = models.NullBooleanField(default=False)
+    created_at = models.DateTimeField(blank=True, null=True)
+    updated_at = models.DateTimeField(blank=True, null=True)
 
 class Poses(models.Model):
     pose_name_english = models.CharField(max_length=50, blank=True, null=True)
@@ -35,8 +35,8 @@ class Posts(models.Model):
     pose_id = models.ForeignKey(Poses, on_delete=models.CASCADE)
     post_img = models.CharField(max_length=500, blank=True, null=True)
     post_video = models.CharField(max_length=500, blank=True, null=True)
-    created_at = models.DateTimeField(max_length=500)
-    updated_at = models.DateTimeField(max_length=500)
+    created_at = models.DateTimeField()
+    updated_at = models.DateTimeField()
 
 class Comments(models.Model):
     verified = models.BooleanField(default=False)
@@ -44,8 +44,8 @@ class Comments(models.Model):
     comment_img = models.CharField(max_length=500, blank=True, null=True)
     user_id = models.ForeignKey(Users, on_delete=models.CASCADE)
     post_id = models.ForeignKey(Posts, on_delete=models.CASCADE)
-    created_at = models.DateTimeField(max_length=500)
-    updated_at = models.DateTimeField(max_length=500)
+    created_at = models.DateTimeField()
+    updated_at = models.DateTimeField()
 
 class Post_Likes(models.Model):
     post_id = models.ForeignKey(Posts, on_delete=models.CASCADE)
