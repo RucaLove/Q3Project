@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html ng-app="app">
+
+<head>
+    <meta charset="utf-8">
+    <title>Yoga Buddy</title>
+    <!-- Bootstrap CSS -->
+    <link rel="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" href="/css/master.css">
+    <link rel="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" href="/css/master.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <script src=“https://use.fontawesome.com/11b74416f9.js“></script>
+</head>
+
+<body>
+  <!-- <p>HER ARE THE THINGS ON THIS PAGE<p> -->
+
+  <div class="container">
+  <div class="row">
+    <div id="leftnav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeLeftNav()">&times;</a>
+        <leftnavbar></leftnavbar>
+    </div>
+    <div id="rightnav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeRightNav()">&times;</a>
+        <rightnavbar></rightnavbar>
+    </div>
+  </div>
+</div>  <script>
+
+
+      /* Set the width of the side navigation to 250px */
+      function openLeftNav() {
+          document.getElementById("leftnav").style.width = "250px";
+          // document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+      }
+
+      /* Set the width of the side navigation to 0 */
+      function closeLeftNav() {
+          document.getElementById("leftnav").style.width = "0";
+      }
+
+      /* Set the width of the side navigation to 250px */
+      function openRightNav() {
+          document.getElementById("rightnav").style.width = "250px";
+          // document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+      }
+
+      /* Set the width of the side navigation to 0 */
+      function closeRightNav() {
+          document.getElementById("rightnav").style.width = "0";
+      }
+
+
+    </script>
+    <!-- Use any element to open the sidenav -->
+    <div class="container">
+      <div class="row">
+        <div class="leftnav" id="leftnav">
+          <span onclick="openLeftNav()">Navigation</span>
+        </div>
+        <div class="rightnav" id="rightnav">
+          <span onclick="openRightNav()">Navigation</span>
+        </div>
+      </div>
+    </dvi>
+
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.0/angular.js"></script>
+    <script type="text/javascript">
+        angular.module("app", [])
+
+            .component('leftnavbar', {
+                controller: function() {
+                    const vm = this
+
+                    vm.navBarProfile = function() {
+                        console.log("You clicked Profile");
+                    }
+
+                    vm.navBarPostures = function() {
+                        console.log("You clicked postures");
+                    }
+
+                    vm.navBarSettings = function() {
+                        console.log("You clicked settings");
+                    }
+
+                    vm.navBarSignOut = function() {
+                        console.log("You clicked Signout");
+                    }
+                },
+                template: `
+        <nav class="navbar navbar-default navbar-fixed-side">
+          <a ng-click="$ctrl.navBarProfile()">Profile</a>
+          <br>
+          <a ng-click="$ctrl.navBarPostures()">Postures</a>
+          <br>
+          <a ng-click="$ctrl.navBarSettings()">Settings</a>
+          <br>
+          <a ng-click="$ctrl.navBarSignOut()">Sign Out</a>
+        </nav>
+      `
+            })
+
+            .component('rightnavbar', {
+                controller: function() {
+                    const vm = this
+
+                    vm.navBarChakra1 = function() {
+                        console.log("You clicked Chakra 1");
+                    }
+
+                    vm.navBarChakra2 = function() {
+                        console.log("You clicked Chakra 2");
+                    }
+
+                    vm.navBarChakra3 = function() {
+                        console.log("You clicked Chakra 3");
+                    }
+
+                    vm.navBarChakra4 = function() {
+                        console.log("You clicked Chakra 4");
+                    }
+                    vm.navBarChakra5 = function() {
+                        console.log("You clicked Chakra 5");
+                    }
+                    vm.navBarChakra6 = function() {
+                        console.log("You clicked Chakra 6");
+                    }
+                    vm.navBarChakra7 = function() {
+                        console.log("You clicked Chakra 7");
+                    }
+                },
+                template: `
+        <nav class="navbar navbar-default navbar-fixed-side">
+          <div class="image">
+            <a ng-click="$ctrl.navBarChakra1()"><h6>Standing Poses</h6><img src="/images/chakra1.png" alt="chakra1" width="30%"></a>
+            <a ng-click="$ctrl.navBarChakra2()"><h6>Hip Openers</h6><img src="/images/chakra2.png" alt="chakra2" width="30%"></a>
+            <a ng-click="$ctrl.navBarChakra3()"><h6>Twists</h6><img src="/images/chakra3.png" alt="chakra3" width="30%"></a>
+            <a ng-click="$ctrl.navBarChakra4()"><h6>Back Bends</h6><img src="/images/chakra4.png" alt="chakra4" width="30%"></a>
+            <a ng-click="$ctrl.navBarChakra5()"><h6>Forwards Bends</h6><img src="/images/chakra5.png" alt="chakra5" width="30%"></a>
+            <a ng-click="$ctrl.navBarChakra6()"><h6>Balance</h6><img src="/images/chakra6.png" alt="chakra6" width="30%"></a>
+            <a ng-click="$ctrl.navBarChakra7()"><h6>Inversions</h6><img src="/images/chakra7.png" alt="chakra7" width="30%"></a>
+          </div>
+        </nav>
+      `
+            })
+    </script>
+</body>
+
+</html>
