@@ -24,3 +24,9 @@ def get_all_posts(request):
     result = cursor.fetchall() # all results
     return JsonResponse(result, safe=False)
     # result = cursor.fetchmany(10) # limiting search to 10 results
+
+def get_post_by_id(request, id):
+    cursor = connection.cursor()
+    cursor.execute("SELECT * FROM yoga_posts Where id = id")
+    result = cursor.fetchall() # all results
+    return JsonResponse(result, safe=False)

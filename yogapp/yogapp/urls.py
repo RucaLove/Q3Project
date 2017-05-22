@@ -18,8 +18,8 @@ from django.conf.urls import url
 # load urls for administration site
 from django.contrib import admin
 # load in functions created in my custom views file
-from yogapp.views import guy, get_all_posts
-from django.views.generic import TemplateView
+from yogapp.views import guy, get_all_posts, get_post_by_id
+from django.views.generic import TemplateView, 
 # # REST framework API
 # from django.contrib.auth.models import User
 # from rest_framework import routers, serializers, viewsets
@@ -51,7 +51,7 @@ urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^$', TemplateView.as_view(template_name='index.html')), # Splash page
     url(r'^posts$', get_all_posts), # get all posts (feed)
-    # url(r'^posts/(\d+)/$', get_post_by_id), # get individual post (from feed or profile)
+    url(r'^posts/<id>/$', get_post_by_id), # get individual post (from feed or profile)
     # url(r'^users/(\d+)/$', get_user_by_id), # get individual user profile (needs AUTH)
     # url(r'^poses$', get_all_poses), # get all poses
     # url(r'^poses')

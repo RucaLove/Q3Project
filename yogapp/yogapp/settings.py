@@ -14,7 +14,12 @@ import os
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 # BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-BASE_DIR = os.path.dirname(os.path.dirname(__file__))
+# BASE_DIR = os.path.dirname(os.path.dirname(__file__))
+
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.dirname(__file__))
+)
+print(os.path.dirname(os.path.dirname(os.path.dirname(__file__))
+))
 
 
 # Quick-start development settings - unsuitable for production
@@ -131,4 +136,9 @@ USE_TZ = True
 STATIC_URL = '/static/'
 #SETTING UP PATH FOR STATIC FILES
 
-STATIC_ROOT = os.path.join(BASE_DIR, 'static')
+STATIC_ROOT = os.path.join(BASE_DIR, 'client')
+print("static_root:", STATIC_ROOT)
+
+STATICFILE_DIRS = [
+    '../client'
+]
