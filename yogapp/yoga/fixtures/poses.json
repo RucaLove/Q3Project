@@ -313,5 +313,140 @@
             "chakra_english": "Root",
             "chakra_img": "/images/charka1.png"
         }
-    }
+    },
+    {
+      "model": "poses",
+      "fields": {
+        "pose_name_english": "Knee to Chest",
+        "pose_name_sankrit": "Apanasana",
+        "pose_name_sankrit_characters": "",
+        "pose_img": "",
+        "difficulty_level": "Easy",
+        "category": "Hip Openers",
+        "description": "Start lying on your back with your spine in a neutral position. Bend your right knee toward your chest. Interlace your fingers on the shin just below the knee. Straighten your left leg and flex your left foot back towards your knee.  Feel the left heel reaching away from the left hip socket, creating space between the femur and the hip. Hug the right knee toward the armpit (or towards the centre of your chest). Relax your neck and shoulders. Use your biceps to pull instead.  Feel your shoulders draw away from your ears and widen across the front of your chest. Feel your lower back pressing into the earth. Create space between each and every vertebra on the back side of your lower spine.  On each inhale, feel your belly press against your thigh. On each exhale feel the belly with draw away from the thigh. Imagine that the outer edges of your shoulders move away from each other so that shoulders are equally wide on the front and the back side of the body. Feel your lower trapezius muscles engage, pulling your shoulder-blades down your back. Your gaze is soft as you look up toward the sky. Draw your pubic bone toward your belly button, lengthening your lower back. Place the least weight on the back of your head and no weight on your neck. Keep all the muscles of the extended leg and foot active and engaged. Relax the foot of your bent leg. Feel the massage of your internal organs on the bent leg side of the body. Release your hands and bring them to the sides of your body. Straighten the bent leg to fully release the pose.",
+        "chakra_sanskrit": "Svadhisthana",
+        "chakra_english": "Sacral",
+        "chakra_img": "/images/charka2.png"
+          }
+        },
+      {
+      "model": "poses",
+      "fields": {
+        "pose_name_english": "Young Sleep",
+        "pose_name_sankrit": "Yoga Nidrasana",
+        "pose_name_sankrit_characters": "",
+        "pose_img": "",
+        "difficulty_level": "Easy",
+        "category": "Hip Openers",
+        "description": "To enter the pose, lie down face up with the legs stretched. Bend the legs and place the feet on the floor a few feet from the hips. Bring the left leg toward the head by holding the foot with both hands, lift the head off the floor and place the left ankle under the head on the floor. Bring the right leg toward the head and place the right foot under the left foot so that the ankles are one above the other and the feet interlock. Place the head on the feet. Bring the hands behind the back and lock the fingers. Remain in the pose for 30 seconds. Then release the hands to exit the pose.",
+        "chakra_sanskrit": "Svadhisthana",
+        "chakra_english": "Sacral",
+        "chakra_img": "/images/charka2.png"
+        }
+      },
+      {
+      "model": "poses",
+      "fields": {
+        "pose_name_english": "Cows Head",
+        "pose_name_sankrit": "Gomukhasana",
+        "pose_name_sankrit_characters": "",
+        "pose_img": "",
+        "difficulty_level": "Easy",
+        "category": "Hip Openers",
+        "description": "To perform this asana, the practitioner sits with the spine straight. The knees are bent so that the left foot goes under the right knee, to the outside of the right hip. Then the right leg goes over the left, so that the right knee stacks on top of the left. The right arm is bent and brought behind the back, while the left arm is brought over the left shoulder. The hands attempt to touch behind the back. This process is repeated on the opposite side.",
+        "chakra_sanskrit": "Svadhisthana",
+        "chakra_english": "Sacral",
+        "chakra_img": "/images/charka2.png"
+        }
+      },
+      {
+      "model": "poses",
+      "fields": {
+        "pose_name_english": "Lotus",
+        "pose_name_sankrit": "Padmasana",
+        "pose_name_sankrit_characters": "",
+        "pose_img": "",
+        "difficulty_level": "Easy",
+        "category": "Hip Openers",
+        "description": "A seated asana with the legs crossed and the feet placed on top of the opposite thighs. It encourages the body to be physically stable and the breath to slow and deepen, allowing the mind to enter a meditative state.",
+        "chakra_sanskrit": "Svadhisthana",
+        "chakra_english": "Sacral",
+        "chakra_img": "/images/charka2.png"
+        }
+      },
+      {
+      "model": "poses",
+      "fields": {
+        "pose_name_english": "Pigeon",
+        "pose_name_sankrit": "Kapotasana",
+        "pose_name_sankrit_characters": "",
+        "pose_img": "",
+        "difficulty_level": "Easy",
+        "category": "Hip Openers",
+        "description": "This asana is performed by kneeling down with the legs not quite touching. The shoulders and head bend backward while the hips remain in place. With the assistance of the hands, if necessary, the body bends until the forearms and shins rest on the floor.",
+        "chakra_sanskrit": "Svadhisthana",
+        "chakra_english": "Sacral",
+        "chakra_img": "/images/charka2.png"
+        }
+      },
+      {
+      "model": "poses",
+      "fields": {
+        "pose_name_english": "Frog",
+        "pose_name_sankrit": "Mandukasana",
+        "pose_name_sankrit_characters": "",
+        "pose_img": "",
+        "difficulty_level": "Easy",
+        "category": "Hip Openers",
+        "description": "To enter the pose, begin in a tabletop position. Gradually move the knees out to the sides, keeping the feet and ankles in line with the knees. Slowly drop the elbows and forearms to the floor with the palms flat on the mat. On an exhale, mindfully bring the hips backward. Hold for two to three breaths and then, pushing into the hands to come up, sit back on the heels.",
+        "chakra_sanskrit": "Svadhisthana",
+        "chakra_english": "Sacral",
+        "chakra_img": "/images/charka2.png"
+        }
+      },
+      {
+      "model": "poses",
+      "fields": {
+        "pose_name_english": "Thunder Bolt / Hero",
+        "pose_name_sankrit": " Vajrasana / Virasana",
+        "pose_name_sankrit_characters": "",
+        "pose_img": "",
+        "difficulty_level": "Easy",
+        "category": "Hip Openers",
+        "description": "To enter the pose, begin by kneeling on the floor. The hips and buttocks are at first lifted off the legs, the inner knees and thighs together, the tops of the feet on the floor and toes untucked. Lower the hips and buttocks to sit on top of your heels on an exhale. Feet, ankles, shins, and knees should remain in one line. Sit up tall and activate the core muscles, drawing the shoulders down the back and away from the neck and ears. Point the tailbone to the floor, arms relax on the tops of the thighs or along the sides of the body, and palms are down.",
+        "chakra_sanskrit": "Svadhisthana",
+        "chakra_english": "Sacral",
+        "chakra_img": "/images/charka2.png"
+        }
+      },
+      {
+      "model": "poses",
+      "fields": {
+        "pose_name_english": "Runner",
+        "pose_name_sankrit": "Ashwa Sanchalasana",
+        "pose_name_sankrit_characters": "",
+        "pose_img": "",
+        "difficulty_level": "Easy",
+        "category": "Hip Openers",
+        "description": "A low lunge posture with the palms grounded on either side of the front foot.",
+        "chakra_sanskrit": "Svadhisthana",
+        "chakra_english": "Sacral",
+        "chakra_img": "/images/charka2.png"
+        }
+      },
+      {
+      "model": "poses",
+      "fields": {
+        "pose_name_english": "Splits ",
+        "pose_name_sankrit": "Hanumasana",
+        "pose_name_sankrit_characters": "",
+        "pose_img": "",
+        "difficulty_level": "Advanced",
+        "category": "Hip Openers",
+        "description": " The legs are in a front split position, with one leg extended in front of the torso and the other behind the torso. The hands and arms may be placed in prayer position or stretched to the sky.",
+        "chakra_sanskrit": "Svadhisthana",
+        "chakra_english": "Sacral",
+        "chakra_img": "/images/charka2.png"
+        }
+      }
 ]
