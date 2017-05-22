@@ -806,5 +806,155 @@
             "chakra_english": "Throat",
             "chakra_img": "/images/charka5.png"
         }
+    },
+    {
+        "model": "yoga.Poses",
+        "fields": {
+            "pose_name_english": "Eagle",
+            "pose_name_sanskrit": "Garudasana",
+            "pose_name_sanskrit_characters": "",
+            "pose_img": "https://www.karmasurfretreat.com/wp-content/uploads/2012/01/Yoga-Asanas-Strand.jpg",
+            "difficulty_level": "Easy",
+            "category": "Balance",
+            "description": "Begin standing in Mountain pose, standing with the feet together and arms at the sides, then crosses the left thigh over the right thigh and hooks the left foot behind the right calf. The right elbow is then placed into the crook of the left elbow as the palms of both hands come together. The pose is usually held for about a half a minute and then repeated on the other side",
+            "chakra_sanskrit": "Ajna",
+            "chakra_english": "Third Eye ",
+            "chakra_img": "/images/charka6.png"
+        }
+    },
+    {
+        "model": "yoga.Poses",
+        "fields": {
+            "pose_name_english": "Balancing Half Moon",
+            "pose_name_sanskrit": "Ardha Chandrasana",
+            "pose_name_sanskrit_characters": "",
+            "pose_img": "https://www.karmasurfretreat.com/wp-content/uploads/2012/01/Yoga-Asanas-Strand.jpg",
+            "difficulty_level": "Easy",
+            "category": "Balance",
+            "description": "To enter this pose, one starts with a wide stance, bends the torso toward one leg and places the hand on the same side on the floor; then the opposite leg is extended fully to the side while the arm on the same side extends fully above the body.",
+            "chakra_sanskrit": "Ajna",
+            "chakra_english": "Third Eye ",
+            "chakra_img": "/images/charka6.png"
+        }
+    },
+    {
+        "model": "yoga.Poses",
+        "fields": {
+            "pose_name_english": "Hero III",
+            "pose_name_sanskrit": "Virabhadrasana III",
+            "pose_name_sanskrit_characters": "",
+            "pose_img": "https://www.karmasurfretreat.com/wp-content/uploads/2012/01/Yoga-Asanas-Strand.jpg",
+            "difficulty_level": "Easy",
+            "category": "Balance",
+            "description": "In this asana, the arms are raised overhead with the palms facing each other or touching. The back leg lifts off the ground while the anchored leg remains straight. The body tilts until the arms, torso and back leg are parallel with the ground.",
+            "chakra_sanskrit": "Ajna",
+            "chakra_english": "Third Eye ",
+            "chakra_img": "/images/charka6.png"
+        }
+    },
+    {
+        "model": "yoga.Poses",
+        "fields": {
+            "pose_name_english": "Plank",
+            "pose_name_sanskrit": "Chaturanga Dandasana",
+            "pose_name_sanskrit_characters": "",
+            "pose_img": "https://www.karmasurfretreat.com/wp-content/uploads/2012/01/Yoga-Asanas-Strand.jpg",
+            "difficulty_level": "Easy",
+            "category": "Balance",
+            "description": "This asana in which the body is held parallel to the ground, face down, supported by the hands and toes, with the elbows at right angles. It can be modified by lowering the knees when necessary.",
+            "chakra_sanskrit": "Ajna",
+            "chakra_english": "Third Eye ",
+            "chakra_img": "/images/charka6.png"
+        }
+    },
+    {
+        "model": "yoga.Poses",
+        "fields": {
+            "pose_name_english": "Seated Boat",
+            "pose_name_sanskrit": "Paripurna Navasana",
+            "pose_name_sanskrit_characters": "",
+            "pose_img": "https://www.karmasurfretreat.com/wp-content/uploads/2012/01/Yoga-Asanas-Strand.jpg",
+            "difficulty_level": "Easy",
+            "category": "Balance",
+            "description": "In this asana, the body balances between the sit bones and the tail bone, with the spine extending straight. The feet are lifted off the ground with the thighs drawn in toward the torso and the knees straightened so that the toes come to above eye level and the body forms a 'V' shape. The arms extend forward, parallel to the ground and each other.",
+            "chakra_sanskrit": "Ajna",
+            "chakra_english": "Third Eye ",
+            "chakra_img": "/images/charka6.png"
+        }
+    },
+    {
+        "model": "yoga.Poses",
+        "fields": {
+            "pose_name_english": "Crow",
+            "pose_name_sanskrit": "Kakasana",
+            "pose_name_sanskrit_characters": "",
+            "pose_img": "https://www.karmasurfretreat.com/wp-content/uploads/2012/01/Yoga-Asanas-Strand.jpg",
+            "difficulty_level": "Easy",
+            "category": "Balance",
+            "description": "The practitioner begins by squatting and placing the palms flat on the ground between the legs and directly under the shoulders. The body's weight is shifted from the feet to the palms until the knees can balance on the backs of the arms above the bent elbows. To achieve good form, the practitioner must keep the fingers wide set, the shoulders down, the chest lifted and the gaze straight ahead.",
+            "chakra_sanskrit": "Ajna",
+            "chakra_english": "Third Eye ",
+            "chakra_img": "/images/charka6.png"
+        }
+    },
+    {
+        "model": "yoga.Poses",
+        "fields": {
+            "pose_name_english": "Side Arm Balance",
+            "pose_name_sanskrit": "Vasisthasana",
+            "pose_name_sanskrit_characters": "",
+            "pose_img": "https://www.karmasurfretreat.com/wp-content/uploads/2012/01/Yoga-Asanas-Strand.jpg",
+            "difficulty_level": "Easy",
+            "category": "Balance",
+            "description": "Begin in a strong and well-aligned kumbhakasana (plank pose). Press down into the right hand, shifting all your weight to the right side of the body. Gently begin to roll the body to the right, lifting the left arm overhead. Firmly press the side of the right foot into the mat while lifting the hips, so that all the weight is carried on the right arm and right foot. Once balanced, align the left foot on top of the right foot, stacking the feet at the arches. The right arm should still be well-aligned and firm from the shoulder through the wrist, with fingers pressing into the mat. Continue lifting the hips so that the body is aligned from the top of the head to the feet. The right arm continues to support the body and the left arm is stretched toward the ceiling with eyes gazing up at the left hand.",
+            "chakra_sanskrit": "Ajna",
+            "chakra_english": "Third Eye ",
+            "chakra_img": "/images/charka6.png"
+        }
+    },
+    {
+        "model": "yoga.Poses",
+        "fields": {
+            "pose_name_english": "Arm Balance",
+            "pose_name_sanskrit": "Bhuja Pidasana",
+            "pose_name_sanskrit_characters": "",
+            "pose_img": "https://www.karmasurfretreat.com/wp-content/uploads/2012/01/Yoga-Asanas-Strand.jpg",
+            "difficulty_level": "Easy",
+            "category": "Balance",
+            "description": "The practitioner begins by squatting and placing the palms flat on the ground between the legs and directly under the shoulders. This asana requires balance, flexibility and strength in the arms, shoulders and wrists to balance on the palms with the legs wrapped around the shoulders or upper arms. As well as a range of physical benefits, it is believed to relieve mental and emotional stress.",
+            "chakra_sanskrit": "Ajna",
+            "chakra_english": "Third Eye ",
+            "chakra_img": "/images/charka6.png"
+        }
+    },
+    {
+        "model": "yoga.Poses",
+        "fields": {
+            "pose_name_english": "Hand to Toe",
+            "pose_name_sanskrit": "Utthita Padangusthasana",
+            "pose_name_sanskrit_characters": "",
+            "pose_img": "https://www.karmasurfretreat.com/wp-content/uploads/2012/01/Yoga-Asanas-Strand.jpg",
+            "difficulty_level": "Easy",
+            "category": "Balance",
+            "description": "In this pose, the yogi begins in tadasana then lifts the right foot up, holding the outer side of the foot with the left hand. The right leg is stretched straight in front of the body then brought across the body to the left side. The right hand is extended sideways and the gaze is fixed on the extended hand. The pose is held for 20 seconds then repeated on the opposite side.",
+            "chakra_sanskrit": "Ajna",
+            "chakra_english": "Third Eye ",
+            "chakra_img": "/images/charka6.png"
+        }
+    },
+    {
+        "model": "yoga.Poses",
+        "fields": {
+            "pose_name_english": "Standing Leg Stretch Internal / External Rotation",
+            "pose_name_sanskrit": "Paviritta / Utthita Hasta Pandangusthasana",
+            "pose_name_sanskrit_characters": "",
+            "pose_img": "https://www.karmasurfretreat.com/wp-content/uploads/2012/01/Yoga-Asanas-Strand.jpg",
+            "difficulty_level": "Easy",
+            "category": "Balance",
+            "description": "In this asana, one knee is lifted towards the chest and the corresponding hand grabs the big toe. The leg is extended forward then moved out to the side. The other hand stays on the hip while the gaze turns to the same side.",
+            "chakra_sanskrit": "Ajna",
+            "chakra_english": "Third Eye ",
+            "chakra_img": "/images/charka6.png"
+        }
     }
 ]
