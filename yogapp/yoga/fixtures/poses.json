@@ -303,4 +303,36 @@
             "chakra_img": "/images/charka1.png"
         }
     },
+    {
+        "model": "poses",
+        "pk": 20,
+        "fields": {
+            "pose_name_english": "Rotated Lateral Angle",
+            "pose_name_sankrit": "Parivritta Parsvakonasana",
+            "pose_name_sankrit_characters": "",
+            "pose_img": "",
+            "difficulty_level": "Moderate",
+            "category": "Standing Poses",
+            "description": "Begin in wide standing. Turn the right foot out at s 90 degree angle and step the left foot back at a 45 degree angle, with the front heel aligned with the back heel. Lengthen the torso out of the hips as you bring the left hip forward and square the hips. Bend the front knee down towards 90 degrees as you ground through the back heel. Extend the left arm out and allow the torso to drop forward. When the torso is in a diagonal line with the back leg, bring the left arm across the midline of the body and place the left elbow on the outselde of the right leg. Bring the hands into Prayer position, pressing the hands strongly against each other, draw the shoulders down away from the ears, and rotate the torso toward the right thigh. The left elbow may serve as a lever to deepen the the spinal rotation, but the main force of rotation should come from within the torso itself, especially from the waist muscles. Lengthen from the back heel through the crown of the head and gaze staright forward, keeping the head in line with the spine.",
+            "chakra_sanskrit": "Muladhara",
+            "chakra_english": "Root",
+            "chakra_img": "/images/charka1.png"
+        }
+    },
+    {
+        "model": "poses",
+        "pk": 21,
+        "fields": {
+            "pose_name_english": "Rotated Triangle",
+            "pose_name_sankrit": "Parivritta Trikonasana",
+            "pose_name_sankrit_characters": "",
+            "pose_img": "",
+            "difficulty_level": "Advanced",
+            "category": "Standing Poses",
+            "description": "Come into wide standing with the feet about 3 feet apart. Turn the right foot out at a 90 degree angle, and step the left heel back at a 60-80 degree angle. Align the front heel with the back heel, or slightly wider to provide stability. Place the hands on the hips, face the hips forward and then scissor the hips by drawing the left hip forward on inhilation and back on the exhilation. Hold the position with the hips facing forward, and strecth the left arm forward as far as possible. Bring the left arm across the midline of the body, and lower the torso, keepin the spine in the neutral position. Place the left hand on the right shin, a block on the outside of the right foot, or the floor to the outside of the right foot. Allow the right arm to rotate open and stretch up as a natural extension of the rotation of the torso, creating a line of energy through the arms. Allow the cervical spine to lengthen and the head to turn upward comfortably as the chin tucks slightly.",
+            "chakra_sanskrit": "Muladhara",
+            "chakra_english": "Root",
+            "chakra_img": "/images/charka1.png"
+        }
+    }
 ]
