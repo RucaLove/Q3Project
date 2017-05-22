@@ -222,5 +222,85 @@
             "chakra_english": "Crown",
             "chakra_img": "/images/charka7.png"
         }
-    }
+    },
+    {
+        "model": "poses",
+        "pk": 15,
+        "fields": {
+            "pose_name_english": "Hero II",
+            "pose_name_sankrit": "Virabhadrasana II",
+            "pose_name_sankrit_characters": "",
+            "pose_img": "",
+            "difficulty_level": "Easy",
+            "category": "Standing Poses",
+            "description": "Begin in wide standing. Turn the right foot out at a 90 degree angle. Lift the heel and place it back at about 45 degrees, with the front heel in line with the back arch. Allow the left hip to come naturally forward slightly as you step back. Lift the arms up to shoulder height and stretch the fingertips away from each other while relaxing the shoulders away from the ears. Bend the right knee directly over the ankle, coming toward a position with the right thigh parallel to the earth. Open the front and back of the chest equally, tuck the chin down and then rotate the head to gaze out over the middle finger of the front hand with the crown of the head lifting.",
+            "chakra_sanskrit": "Muladhara",
+            "chakra_english": "Root",
+            "chakra_img": "/images/charka1.png"
+        }
+    },
+    {
+        "model": "poses",
+        "pk": 16,
+        "fields": {
+            "pose_name_english": "Hero I",
+            "pose_name_sankrit": "Virabhadrasana I",
+            "pose_name_sankrit_characters": "",
+            "pose_img": "",
+            "difficulty_level": "Easy",
+            "category": "Standing Poses",
+            "description": "Begin in wide standing. Turn the right foot out at a 90 degree angle and step the left heel back at a 45-60 degree angle, grounding the heel firmly. Rotate the hips forward keeping the back heel pressed firmly into the earth. Ben the front knee down towards a 90 degree angle with the front knee directly over the ankle. Raise the arms up in front of the body and overhead, keeping the little finger side of the hands turned slightly in to create space across the upper back. Keep the shoulder down away from the ears and allow the neck to lengthen in alignment with the spine, with the gaze forward and the chin parallel to the earth.",
+            "chakra_sanskrit": "Muladhara",
+            "chakra_english": "Root",
+            "chakra_img": "/images/charka1.png"
+        }
+    },
+    {
+        "model": "poses",
+        "pk": 17,
+        "fields": {
+            "pose_name_english": "Lateral Angle",
+            "pose_name_sankrit": "Parsvakonasana",
+            "pose_name_sankrit_characters": "",
+            "pose_img": "",
+            "difficulty_level": "Moderate",
+            "category": "Standing Poses",
+            "description": "Begin in Hero II position with the right leg forward. Lift the torso up out of the pelvis and then bend the torso laterally, resting the right forearm on the right thigh and the left arm on the side of the body. Bring your right hand inside or outside the right foot, depending on which is more comfortable. Stay lifted up on the right fingertips so that you are not dumping too much weight into your hand. Lift your left arm overhead in alignment with the body. Open your chest and make sure your left shoulder is aligned over your right shoulder. Create a long, straight line of energy from the heel of the back leg through the side of the torse and out through the crown of the head and fingertips.",
+            "chakra_sanskrit": "Muladhara",
+            "chakra_english": "Root",
+            "chakra_img": "/images/charka1.png"
+        }
+    },
+    {
+        "model": "poses",
+        "pk": 18,
+        "fields": {
+            "pose_name_english": "Triangle",
+            "pose_name_sankrit": "Trikonasana",
+            "pose_name_sankrit_characters": "",
+            "pose_img": "",
+            "difficulty_level": "Moderate",
+            "category": "Standing Poses",
+            "description": "Begin in Hero II position straightening your front leg. Engage your right thigh muscles and draw your right femur into its socket. Extend your right hand toward the front of the room, keeping your right hip tucked. Lower your right hand down onto your shin or ankle. If you are more open, bring your right hand to the floor on the inside or outside the right foot. Do whichever one feels most comfortable.The left shoulder stacks on top of the right one as you open your chest, reaching your left fingertips towards the ceiling while keeping your left shoulder rooted in its socket. Take the gaze where it is most comfortable on he neck, eventually working on bringing the gaze towards the hand pointing at the ceiling.",
+            "chakra_sanskrit": "Muladhara",
+            "chakra_english": "Root",
+            "chakra_img": "/images/charka1.png"
+        }
+    },
+    {
+        "model": "poses",
+        "pk": 19,
+        "fields": {
+            "pose_name_english": "Separate Leg Head to Knee",
+            "pose_name_sankrit": "Parsvottanasana",
+            "pose_name_sankrit_characters": "",
+            "pose_img": "",
+            "difficulty_level": "Moderate",
+            "category": "Standing Poses",
+            "description": "Stand with legs approimately 3 feet apart. Turn the right foot out at a 90 degree angle and step the left heel back at a 60-80 degree angle, with the front heel in line with the back heel. Rest the hands on the hips and bring the back hip forward and the forward hip back until they are sqaure and level. Choose the position of the arms and hands that is appropriate for you. The classical position is with the hands in Prayer position, Namaste, behind the back. Alternatives are with the elbows clasped behind the back, the arms stretched out overhead, or the hands in Prayer position in the front of the heart. Bend forward at the hip, keeping the spine neutral as long as possible, and then bending the knee, to bring the torso onto or near the thigh and the forehead toward the knee. Hold the pose with a microbend in the front knee, allowing the head to be soft and relaxed, with the sholders drawn away from the ears and the neck lengthened.",
+            "chakra_sanskrit": "Muladhara",
+            "chakra_english": "Root",
+            "chakra_img": "/images/charka1.png"
+        }
+    },
 ]
