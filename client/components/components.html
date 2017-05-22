@@ -17,7 +17,7 @@
 
     <div class="well media" id='poseContainer'>
 
-      <!-- this div below here is styled to be Pose Photo -->
+      <!-- this div below here is styled to be Pose Photo and Pose Dificulty-->
 
       <div class="media-left media-middle">
         <img src="meditate.png" alt="PosePhoto" class="posePhoto">
@@ -39,7 +39,15 @@
         <!-- this div contains discription -->
         <div class="panel panel-default">
           <div class="panel-heading"><strong>Discription</strong></div>
-          <div class="panel-body">Bacon Bacon Bacon Bacon Bacon Bacon Bacon Bacon Bacon Bacon Bacon Bacon Bacon Bacon Bacon Bacon Bacon Bacon Bacon Bacon Bacon Bacon Bacon Bacon Bacon Bacon Bacon Bacon Bacon Bacon Bacon Bacon Bacon</div>
+          <div class="panel-body">Bacon Bacon Bacon Bacon Bacon Bacon Bacon Bacon Bacon Bacon Bacon Bacon Bacon Bacon Bacon Bacon Bacon Bacon Bacon Bacon Bacon Bacon Bacon Bacon Bacon Bacon Bacon Bacon Bacon Bacon Bacon Bacon Bacon.
+
+          Bacon Bacon Bacon Bacon Bacon Bacon Bacon.
+
+          Bacon Bacon Bacon Bacon Bacon Bacon Bacon Bacon Bacon Bacon Bacon Bacon Bacon Bacon Bacon Bacon Bacon Bacon Bacon Bacon Bacon Bacon Bacon Bacon Bacon BaconBacon Bacon Bacon Bacon Bacon Bacon Bacon Bacon Bacon Bacon Bacon Bacon Bacon Bacon.
+
+          Bacon Bacon Bacon Bacon Bacon Bacon Bacon Bacon Bacon Bacon Bacon Bacon Bacon Bacon Bacon Bacon Bacon Bacon Bacon. Bacon Bacon Bacon Bacon Bacon Bacon Bacon Bacon Bacon Bacon Bacon Bacon Bacon Bacon Bacon Bacon Bacon Bacon Bacon Bacon Bacon.
+
+          Bacon Bacon Bacon Bacon Bacon Bacon Bacon Bacon Bacon Bacon Bacon Bacon</div>
         </div>
       </div>
 
@@ -48,10 +56,10 @@
       <div class="col-md-12">
 
         <div class="pull-right">
-          <img src="../images/chakra2.png" alt="chakra" class="chakraPhoto">
+          <img src="../images/chakra1.png" alt="chakra" class="chakraPhoto">
         </div>
         <div class="pull-right">
-          <img src="../images/chakra1.png" alt="chakra" class="chakraPhoto">
+          <img src="../images/chakra2.png" alt="chakra" class="chakraPhoto">
         </div>
         <div class="pull-right">
           <img src="../images/chakra3.png" alt="chakra" class="chakraPhoto">
@@ -69,24 +77,54 @@
           <img src="../images/chakra7.png" alt="chakra" class="chakraPhoto">
         </div>
 
-
-
-
       </div>
 
     </div>
-
-
 
   </div>
 
   <!-- these buttons should be removed, replaced with angular functions to make the color of the container change -->
   <button onclick="changeToBlue()">change to blue</button>
   <button onclick="changeToGradient1()">change to red/yellow</button>
+  <button onclick="changeToOne()">change to Type1</button>
+  <button onclick="changeToTwo()">change to Type2</button>
+  <button onclick="changeToThree()">change to Type3</button>
+  <button onclick="changeToFour()">change to Type4</button>
+  <button onclick="changeToFive()">change to Type5</button>
+  <button onclick="changeToSix()">change to Type6</button>
+  <button onclick="changeToSeven()">change to Type7</button>
 
   <script type="text/javascript">
     function changeToBlue() {
       document.getElementById("poseContainer").style.background = "lightblue";
+    }
+
+    function changeToOne() {
+      document.getElementById("poseContainer").style.background = "rgba(220, 56, 64, 0.50)";
+    }
+
+    function changeToTwo() {
+      document.getElementById("poseContainer").style.background = "rgba(226, 136, 39, 0.50)";
+    }
+
+    function changeToThree() {
+      document.getElementById("poseContainer").style.background = "rgba(234, 195, 28, 0.50)";
+    }
+
+    function changeToFour() {
+      document.getElementById("poseContainer").style.background = "rgba(130, 191, 64, 0.5)";
+    }
+
+    function changeToFive() {
+      document.getElementById("poseContainer").style.background = "rgba(80, 192, 217, 0.5)";
+    }
+
+    function changeToSix() {
+      document.getElementById("poseContainer").style.background = "rgba(47, 136, 215, 0.50)";
+    }
+
+    function changeToSeven() {
+      document.getElementById("poseContainer").style.background = "rgba(102, 102, 204, 0.5)";
     }
 
     function changeToGradient1() {
