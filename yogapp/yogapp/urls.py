@@ -48,6 +48,12 @@ from yogapp.views import guy
 # (\d+)/ is allowing us to pass a number in to the url params
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
-    url(r'^$', guy),
+    url(r'^$', guy), # Splash page
+    # url(r'^posts$', get_all_posts), # get all posts (feed)
+    # url(r'^posts/(\d+)/$', get_post_by_id), # get individual post (from feed or profile)
+    # url(r'^users/(\d+)/$', get_user_by_id), # get individual user profile (needs AUTH)
+    # url(r'^poses$', get_all_poses), # get all poses
+    # url(r'^poses')
+    # url(r'^contributors$', get_contributors) # render contributors page
     # url(r'^api-auth/', include('rest_framework.urls', namespace='rest_framework')),
 ]
