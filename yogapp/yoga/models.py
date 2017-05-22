@@ -30,9 +30,9 @@ class Poses(models.Model):
 
 class Posts(models.Model):
     title = models.CharField(max_length=500)
-    user_id = models.ForeignKey(Users, on_delete=models.CASCADE)
+    user_id = models.ForeignKey(Users, on_delete=models.CASCADE, blank=True, null=True)
     description = models.TextField()
-    pose_id = models.ForeignKey(Poses, on_delete=models.CASCADE)
+    pose_id = models.ForeignKey(Poses, on_delete=models.CASCADE, blank=True, null=True)
     post_img = models.TextField(blank=True, null=True)
     post_video = models.TextField(blank=True, null=True)
     created_at = models.DateTimeField()
