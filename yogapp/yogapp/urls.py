@@ -19,7 +19,7 @@ from django.conf.urls import url
 from django.contrib import admin
 # load in functions created in my custom views file
 from yogapp.views import guy, get_all_posts, get_post_by_id
-from django.views.generic import TemplateView, 
+from django.views.generic import TemplateView
 # # REST framework API
 # from django.contrib.auth.models import User
 # from rest_framework import routers, serializers, viewsets
