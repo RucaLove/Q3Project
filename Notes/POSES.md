@@ -8,18 +8,19 @@
 ## PHOTOS
 
 #### Triangle - Standing Poses
-#### Mountain - Standing Poses
+#### MOUNTAIN - Standing Poses
 #### Rotated Triangle - Standing Poses
 #### Squat - Hip Openers
 #### Butterfly - Hip Openers
 #### Lotus - Hip Openers
 #### Marichi Twist - Twists
-####  - Twists
-####  - Back Bends
-####  - Back Bends
+#### Seated Spinal Twist - Twists
+#### BOW - Back Bends
+#### Wheel - Back Bends
+#### DOWNWARD FACING DOG - Forward Bends
 #### Separate Leg Head to Knee - Forward Bends
 #### Dancer - Forward Bends
 #### Tree - Balance
 #### Eagle - Balance
-#### Headstand - Inversions
+#### HEADSTAND - Inversions
 #### Shoulder Stand - Inversions
