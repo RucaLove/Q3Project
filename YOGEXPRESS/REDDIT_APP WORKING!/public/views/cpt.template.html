@@ -1,0 +1,24 @@
+<nav class="navbar navbar-default">
+  <div class="container">
+    <div class="navbar-header">
+
+
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar">Home</span>
+              <span class="icon-bar">Posts</span>
+              <span class="icon-bar">Favorites</span>
+            </button>
+      <div class="navbar-brand">
+        <a ui-sref="cpt.all"><img style="width:20%; border:none;margin-top: -4%;" src="https://68.media.tumblr.com/df358e044c4e8b4e91096c38e9e03da9/tumblr_o1k7zw1H3u1ui19wso1_400.gif" alt="home"><span style="color:gray; font-weight:bold;">HOME</span> </a>
+      </div>
+    </div>
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+    </div>
+  </div>
+</nav>
+<!-- ADDING ABSTRACT STATE FOR EVERY PAGE TO LOAD WITHIN THIS BAD BOY -->
+<main class="container">
+
+  <ui-view></ui-view>
+</main>

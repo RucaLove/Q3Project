@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html ng-app="app">
+
+<head>
+  <meta charset="utf-8">
+  <title>Yoga Buddy</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes">
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <!-- <link href="https://fonts.googleapis.com/css?family=IM+Fell+Double+Pica" rel="stylesheet"> -->
+  <!-- THIS IS THE BOOTSTRAP CSS FILE -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <!-- THIS IS MY CUSTOM CSS FILE -->
+  <link rel="stylesheet" href="/css/style.css">
+  <base href="/">
+</head>
+
+<body>
+
+  <!-- UI-ROUTER  -->
+  <ui-view></ui-view>
+
+  <!-- ANGULAR  CDN -->
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+  <!-- UI-ROUTER -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/1.0.3/angular-ui-router.js"></script>
+  <!-- ANGULAR MOMENT (STUFF FOR TIME FORMATTING) -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.18.1/moment.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-moment/1.0.1/angular-moment.js"></script>
+
+  <!-- OUR ANGULAR CODE -->
+  <!-- MAIN APP STUFF -->
+  <script src="/js/app.module.js"></script>
+  <script src="/js/app.config.js"></script>
+  <script src="/js/app.component.js"></script>
+
+  <!-- SERVICES -->
+  <script src="/js/users/users.services.js"></script>
+  <script src="/js/posts/posts.services.js"></script>
+  <script src="/js/poses/poses.services.js"></script>
+  <script src="/js/comments/comments.services.js"></script>
+  <script src="/js/contributors/contributors.services.js"></script>
+
+  <!-- COMPONENTS -->
+
+  <!-- USERS -->
+  <script src="/js/users/users.component.js"></script>
+
+  <!-- POSTS -->
+  <script src="/js/posts/posts.component.js"></script>
+  <script src="/js/posts/editPost.component.js"></script>
+  <script src="/js/posts/newPost.component.js"></script>
+
+  <!-- POSES -->
+  <script src="/js/poses/poses.component.js"></script>
+  <!-- COMMENTS -->
+  <script src="/js/comments/comments.component.js"></script>
+  <!-- NAVIGATION -->
+  <script src="/js/navigation/navigation.component.js"></script>
+  <!-- CONTRIBUTORS -->
+  <script src="/js/contributors/contributors.component.js"></script>
+
+</body>
+
+</html>

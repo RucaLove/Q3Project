@@ -1,0 +1,3 @@
+- Fat-Arrow can't be constructor
+  - this is lexically bound
+    - lexically means it would be bound to the first instance of this.

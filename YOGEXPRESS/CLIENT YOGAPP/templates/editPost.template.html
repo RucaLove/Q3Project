@@ -1,0 +1,63 @@
+<div class="container">
+  <div class="page-header">
+
+    <h1 class="text-center">
+    {{$ctrl.post.title}}
+  </h1>
+  </div>
+
+  <div class="well">
+    <div class="text-right">
+      {{ $ctrl.post.user_id }}
+    </div>
+    <img class="media-object" ng-src="{{ $ctrl.post.post_img }}">
+    <div class="media-body">
+
+      <p>
+        {{ $ctrl.post.description }}
+      </p>
+      <span am-time-ago=" $ctrl.post.created_at"></span> |
+      <i class="glyphicon glyphicon-comment"></i>
+      <!-- TRUE DISPLAYS THE COMMENT(S) -->
+      <a ui-sref="app.comment({id: $ctrl.post.id})">
+      {{ $ctrl.post.comments.length}}
+      <ng-pluralize count="$ctrl.post.comments.length" when="{'0': 'Comments', 'one': 'Comment', 'other': 'Comments'}"></ng-pluralize>
+    </a>
+
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-8">
+
+      <form name="form" ng-submit="form.$valid && $ctrl.editPost(post)" novalidate>
+        <div class="form-group" ng-class="{'has-error': form.title.$invalid}">
+          <label for="title">Title</label>
+          <span ng-show="form.title.$invalid">Please enter a title for your post.</span>
+          <input id="title" class="form-control" name="title" ng-model="$ctrl.post.title" type="text" required>
+        </div>
+        <div ng-class="{'has-error': form.body.$invalid}">
+          <label for="body">Body</label>
+          <span ng-show="form.body.$invalid">Please enter content for this post.</span>
+          <textarea ng-model="$ctrl.post.body" id="body" class="form-control" name="body" type="text" required></textarea>
+        </div>
+        <div ng-class="{'has-error': form.author.$invalid}">
+          <label for="author">Author</label>
+          <span ng-show="form.author.$invalid">Please add your name for this post.</span>
+          <input id="author" ng-model="$ctrl.post.author" class="form-control" name="author" type="text" required>
+        </div>
+        <div ng-class="{'has-error': form.url.$invalid}">
+          <label for="image-url">Image</label>
+          <span ng-show="form.url.$invalid ">Please add a photo for this post.</span>
+          <input ng-model="$ctrl.post.image_url" id="image-url" class="form-control" name="url" type="text" required>
+        </div>
+        <div class="form-group btn-group">
+          <button type="submit" class="btn btn-primary">Save</button>
+          <button ng-click="$ctrl.deleter()" type="button" class="btn btn-primary">Delete</button>
+          <button type="button" class="btn btn-primary" ui-sref="app.all">Exit</button>
+
+        </div>
+      </form>
+    </div>
+  </div>
+</div>

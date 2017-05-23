@@ -1,0 +1,47 @@
+{
+  "name": "angular-ui-router",
+  "description": "State-based routing for AngularJS",
+  "version": "1.0.0-beta.3",
+  "homepage": "https://ui-router.github.io",
+  "contributors": [
+    {
+      "name": "Nate Abele",
+      "email": "nate@radify.io",
+      "web": "https://radify.io"
+    },
+    {
+      "name": "Chris Thielen",
+      "web": "https://github.com/christopherthielen"
+    },
+    {
+      "name": "Tim Kindberg",
+      "web": "https://github.com/timkindberg"
+    },
+    {
+      "name": "Karsten Sperling",
+      "web": "https://github.com/ksperling"
+    }
+  ],
+  "maintainers": [
+    {
+      "name": "UIRouter Team",
+      "web": "https://github.com/ui-router?tab=members"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/angular-ui/ui-router.git"
+  },
+  "bugs": {
+    "url": "https://github.com/angular-ui/ui-router/issues"
+  },
+  "engines": {
+    "node": ">4"
+  },
+  "license": "MIT",
+  "peerDependencies": {
+    "angular": ">1.2 <2.0"
+  },
+  "main": "release/angular-ui-router.js",
+  "typings": "commonjs/ng1.d.ts"
+}

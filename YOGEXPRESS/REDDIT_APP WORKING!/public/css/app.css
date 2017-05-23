@@ -1,0 +1,179 @@
+.media-object {
+  max-width: 300px;
+}
+
+[ng-click] {
+  cursor: pointer;
+}
+
+.search-form {
+  margin-top: 4px;
+}
+
+main.container {
+  margin-bottom: 4em;
+}
+
+/*EROOORRRRR STUFFFS*/
+.has-error {
+  color: red;
+}
+
+
+.well{
+border-bottom:solid rgba(210,180,140,0.35);
+/*background-color: rgba(132, 126, 103, 0.4);*/
+}
+
+.form-control{
+border-bottom:solid rgba(210,180,140, 0.35);
+}
+body{
+font-family: 'IM Fell Double Pica', serif;
+text-shadow: 0px 1px 1.5px rgba(132, 126, 103, .8);
+}
+
+a{/*lightbrown*/
+color:black;
+/*rgba(205,133,63, 0.15);*/
+
+ /*#a07eff;*/
+
+}
+a:focus, a:hover{
+color: 	rgba(210,180,140,0.75);
+/*#898af9;*/
+
+font-weight: bold;
+}
+
+img{
+border-bottom: solid rgba(132, 126, 103, .3);
+border-left: solid rgba(132, 126, 103, .2);
+border-right: solid rgba(132, 126, 103, .2);
+}
+
+img.one-post.media-object {
+width: auto;
+max-width: 65%;
+margin-top: -6%;
+}
+
+div.break{
+max-width: 75%;
+height: 2.5px;
+background-color:rgba(132, 126, 103, .35);
+margin: 0 auto;
+}
+div.one-post.well{
+max-width: 75%;
+margin: 0 auto;
+margin-top: 1%;
+}
+
+div.one-post.media-body.ng-binding{
+font-size: 1.15em;
+background-color: rgba(132, 126, 103, .2);
+padding:1%;
+border-style:groove;
+border-radius: 1%;
+width: auto;
+max-width: 95%;
+margin: auto;
+margin-top: -1%;
+display:table;
+}
+
+
+div.page-header.one-post{
+max-width: 55%;
+height: 3.5em;
+margin: auto;
+margin-top: -1%;
+margin-bottom: 0.5%;
+border-radius:5px;
+background-color: rgba(255,255,255,0.75);
+border-bottom:solid rgba(210,180,140,0.35);
+color:black;
+position: relative;
+}
+
+h1.one-post.title.ng-binding{
+position: absolute;
+bottom: 0;
+right: 0;
+left: 0;
+text-align: center;
+margin: 0 auto;
+margin-bottom: 0.5%;
+}
+
+div.one-post.time{
+margin: 0 auto;
+margin-left: 80%;
+}
+
+/*==========================BUTTONS*/
+
+.btn{
+background-color: black;
+border-bottom:  5px solid 	rgba(205,133,63, 0.15);
+/*rgba(138, 161, 255, 0.6);*/
+border-left:  5px solid rgba(205,133,63, 0.25);
+border-right:  5px solid rgba(205,133,63, 0.25);
+font-weight: bold;
+}
+.btn-info{
+border-color: black;
+}
+.btn-info.active,.btn-info:active, .btn-info:hover, .btn-info:focus, .open>.dropdown-toggle.btn-info{
+background-color: black;
+border-color: solid rgba(205,133,63, 0.5);
+}
+
+
+.btn-info:active:hover, .btn-info:focus, .btn-info:hover{
+border-color:rgba(205,133,63, 0.5);
+background-color: black;
+color: white;
+}
+.btn-group{
+margin-top: 0.5%;
+}
+.btn-primary:hover{
+background-color:black;
+border-color: rgba(205,133,63, 0.5);
+}
+.btn-primary.active, .btn-primary:active:focus, .open>.dropdown-toggle.btn-primary, .btn-primary.focus, .btn-primary:focus{
+background-color: black;
+border-color:rgba(205,133,63, 0.5);
+}
+/*==========================BUTTONS*/
+
+body{
+background-color: rgba(0, 0, 0, 0.5)
+}
+
+label{
+color:white;
+}
+
+.animate-if {
+  background:rgba(132, 126, 103, 0.7);
+  border:1px solid black;
+  padding:10px;
+}
+
+.animate-if.ng-enter, .animate-if.ng-leave {
+  transition:all cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.5s;
+}
+
+.animate-if.ng-enter,
+.animate-if.ng-leave.ng-leave-active {
+  opacity:0;
+}
+
+.animate-if.ng-leave,
+.animate-if.ng-enter.ng-enter-active {
+  opacity:1;
+}

@@ -1,0 +1,29 @@
+<!-- Toggle new post FORM  (THIS IS THE BUTTON)-->
+<div class="pull-right">
+  <p><a ng-click="$ctrl.postForm()" class="btn btn-info">New Post</a></p>
+</div>
+
+
+<!-- FILTER /SERCH -->
+<ul class="nav nav-pills">
+  <li role="presentation" class="active">
+    <input type="search" ng-model="search" class="form-control input-sm search-form" placeholder="Search">
+  </li>
+
+
+  <!-- DROP DOWN -->
+  <div class="form-inline">
+    <label for="sort">  Sort by </label>
+    <!-- ng-change="$ctrl.sortr()" -->
+    <select class="form-control" ng-change="$ctrl.sortr(sortOrder)" ng-model="$ctrl.sortOrder" ng-init="sortOrder='-vote_count';">
+               <option  value="-created_at">Newest</option>
+               <option  value="created_at">Oldest</option>
+               <option  value="-vote_count">Most Liked</option>
+               <option  value="vote_count">Least Liked</option>
+               <option  value="-comments.length">Most Comments</option>
+               <option  value="title">Title (A-Z)</option>
+              <option  value="-title">Title (Z-A)</option>
+             </select>
+  </div>
+</ul>
+<new-post ng-if="$ctrl.form"></new-post>

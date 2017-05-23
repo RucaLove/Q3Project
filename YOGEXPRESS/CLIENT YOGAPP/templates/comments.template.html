@@ -1,0 +1,76 @@
+<div class="container">
+  <div class="page-header one-post">
+    <h1 class="one-post title">
+    {{$ctrl.post.title}}
+  </h1>
+  </div>
+
+  <div class="one-post well">
+    <div class="text-right">
+      <h3 >  {{ $ctrl.post.user_id }} </h3>
+      <!-- <h4 class="media-heading">
+        <a ng-click="$ctrl.likes(post, 1)"><i class="glyphicon glyphicon-arrow-up"></i></a>
+        <a ng-click="$ctrl.likes(post, 0)"><i class="glyphicon glyphicon-arrow-down"></i></a>
+
+          {{ $ctrl.post.vote_count }}
+        </h4> -->
+      <span class="has-error" ng-if="$ctrl.post.negative">No Negativity here man.</span>
+    </div>
+
+    <p>PHOTO WILL GO HERE</p>
+    <img class="one-post media-object center-block" ng-src="{{ $ctrl.post.image_url }}">
+    <br>
+    <div class="one-post media-body">
+
+      <p>
+        {{ $ctrl.post.description }}
+      </p>
+      <span am-time-ago=" $ctrl.post.created_at"></span> |
+      <i class="glyphicon glyphicon-comment"></i> {{ $ctrl.comments.length}}
+      <ng-pluralize count="$ctrl.comments.length" when="{'0': 'Comments', 'one': 'Comment', 'other': 'Comments'}"></ng-pluralize>
+    </div>
+  </div>
+
+  <div class="one-post well">
+    <div class="row">
+      <div class="center-block">
+        <h2 class="text-center">Comments</h2>
+        <div class="break"> </div>
+        <div ng-repeat="comment in $ctrl.comments track by $index">
+          <hr>
+          <div class="media-body">
+            <!-- FIND OUT WHO AUTHOR WAS FOR FUTURE BUILD -->
+            <br>
+            <div class="text-center">
+              <h4> {{ comment.comment_text }}</h4>
+              <h4> {{ comment.comment_img }}</h4>
+              <h4> {{ comment.verified }}</h4>
+            </div>
+            <div class="one-post time"> <span am-time-ago="comment.created_at"></span></div>
+            <div class="break"> </div>
+
+          </div>
+        </div>
+
+        <div class="col-md-offset-5">
+
+          <form name="$ctrl.lostComment" ng-submit="$ctrl.lostComment.$valid && $ctrl.commenter()" class="form-inline" novalidate>
+            <div class="form-group" ng-class="{'has-error': $ctrl.lostComment.text.$touched && $ctrl.lostComment.text.$invalid}">
+              <span ng-show="$ctrl.lostComment.text.$invalid && $ctrl.lostComment.text.$touched">Enter a comment</span>
+              <input type="text" ng-model="$ctrl.comment.content" name="text" class="form-control" required>
+            </div>
+            <div class="form-group">
+              <input type="submit" class="btn btn-primary">
+            </div>
+          </form>
+        </div>
+
+
+
+        <!-- col-md-6 -->
+      </div>
+      <!-- row -->
+    </div>
+    <!-- well -->
+  </div>
+</div>
