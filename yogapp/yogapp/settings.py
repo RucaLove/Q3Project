@@ -62,7 +62,7 @@ ROOT_URLCONF = 'yogapp.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': ['../client'],
+        'DIRS': [],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -136,9 +136,9 @@ USE_TZ = True
 STATIC_URL = '/static/'
 #SETTING UP PATH FOR STATIC FILES
 
-STATIC_ROOT = os.path.join(BASE_DIR, 'client')
-print("static_root:", STATIC_ROOT)
+# STATIC_ROOT = os.path.join(BASE_DIR, 'client')
+# print("static_root:", STATIC_ROOT)
 
-STATICFILE_DIRS = [
-    '../client'
-]
+# STATICFILE_DIRS = [
+#     '../client'
+# ]

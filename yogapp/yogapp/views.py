@@ -13,7 +13,7 @@ from django.http import HttpResponse, JsonResponse
 @transaction.atomic
 def guy(request):
     cursor = connection.cursor()
-    cursor.execute("SELECT profile_picture_img FROM yoga_users WHERE id = 1")
+    cursor.execute("SELECT profile_picture_img FROM yoga_users WHERE id = 6")
     result = cursor.fetchone()
     return HttpResponse(result)
 
