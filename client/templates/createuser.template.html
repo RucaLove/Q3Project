@@ -8,21 +8,21 @@
                 <div class="center-block">
                   <div class="createUser">
 
-                    <div ng-class="{'has-error': $ctrl.new.userName.$invalid && $ctrl.new.userName.$touched}">
+                    <div ng-class="{'has-error': $ctrl.new.username.$invalid && $ctrl.new.username.$touched}">
                       <label for="user-name">USERNAME</label>
-                      <span ng-show="$ctrl.new.userName.$invalid && $ctrl.new.userName.$touched">!!!!</span>
-                      <input ng-model="$ctrl.user.userName" id="user.userName" class="form-horizontal" name="userName" type="text" required>
+                      <span ng-show="$ctrl.new.username.$invalid && $ctrl.new.username.$touched"></span>
+                      <input ng-model="$ctrl.user.username" id="user.username" class="form-horizontal" name="username" type="text" required>
                     </div>
                     <br>
                     <div ng-class="{'has-error': $ctrl.new.password.$invalid && $ctrl.new.password.$touched}">
                       <label for="user-password">PASSWORD</label>
-                      <span ng-show="$ctrl.new.password.$invalid && $ctrl.new.password.$touched">!!!!</span>
+                      <span ng-show="$ctrl.new.password.$invalid && $ctrl.new.password.$touched"></span>
                       <input ng-model="$ctrl.user.password" id="user.password" class="form-horizontal" name="password" type="password" required>
                     </div>
                     <br>
                     <div ng-class="{'has-error': $ctrl.new.email.$invalid && $ctrl.new.email.$touched}">
                       <label for="user-email">EMAIL</label>
-                      <span ng-show="$ctrl.new.email.$invalid && $ctrl.new.email.$touched">!!!!</span><br>
+                      <span ng-show="$ctrl.new.email.$invalid && $ctrl.new.email.$touched"></span><br>
                       <input ng-model="$ctrl.user.email" id="user.email" class="form-horizontal" name="email" type="text" required>
                     </div>
                     <br>

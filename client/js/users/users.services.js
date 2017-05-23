@@ -7,11 +7,9 @@
 
   function service($http, $stateParams, $state, $filter) {
 
-
     this.allUsers = function() { // Grabs all users
       return $http.get('/users').then(all => all.data)
     }
-
 
     this.createUser = function(createUser) { // Makes new user
       $http.user('/users', createUser)

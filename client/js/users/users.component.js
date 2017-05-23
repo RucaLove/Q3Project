@@ -37,7 +37,6 @@
       })
     }
 
-
     function likes(user, dir) {
       UsersServices.$like(user, dir) // Like functionality
     }

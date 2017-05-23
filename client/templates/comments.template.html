@@ -7,23 +7,23 @@
 
   <div class="one-post well">
     <div class="text-right">
-      <h3 >  {{ $ctrl.post.author }} </h3>
-      <h4 class="media-heading">
+      <h3 >  {{ $ctrl.post.user_id }} </h3>
+      <!-- <h4 class="media-heading">
         <a ng-click="$ctrl.likes(post, 1)"><i class="glyphicon glyphicon-arrow-up"></i></a>
         <a ng-click="$ctrl.likes(post, 0)"><i class="glyphicon glyphicon-arrow-down"></i></a>
 
           {{ $ctrl.post.vote_count }}
-        </h4>
+        </h4> -->
       <span class="has-error" ng-if="$ctrl.post.negative">No Negativity here man.</span>
     </div>
 
-
+    <p>PHOTO WILL GO HERE</p>
     <img class="one-post media-object center-block" ng-src="{{ $ctrl.post.image_url }}">
     <br>
     <div class="one-post media-body">
 
       <p>
-        {{ $ctrl.post.body }}
+        {{ $ctrl.post.description }}
       </p>
       <span am-time-ago=" $ctrl.post.created_at"></span> |
       <i class="glyphicon glyphicon-comment"></i> {{ $ctrl.comments.length}}
@@ -42,7 +42,10 @@
             <!-- FIND OUT WHO AUTHOR WAS FOR FUTURE BUILD -->
             <br>
             <div class="text-center">
-              <h4> {{ comment.content }}</h4></div>
+              <h4> {{ comment.comment_text }}</h4>
+              <h4> {{ comment.comment_img }}</h4>
+              <h4> {{ comment.verified }}</h4>
+            </div>
             <div class="one-post time"> <span am-time-ago="comment.created_at"></span></div>
             <div class="break"> </div>
 
