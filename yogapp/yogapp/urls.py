@@ -49,7 +49,7 @@ from django.views.generic import TemplateView
 # (\d+)/ is allowing us to pass a number in to the url params
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
-    url(r'^$', TemplateView.as_view(template_name='index.html')), # Splash page
+    url(r'^$', guy ), # Splash page
     url(r'^posts$', get_all_posts), # get all posts (feed)
     url(r'^posts/<id>/$', get_post_by_id), # get individual post (from feed or profile)
     # url(r'^users/(\d+)/$', get_user_by_id), # get individual user profile (needs AUTH)
