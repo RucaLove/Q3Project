@@ -26,7 +26,7 @@
     // }
 
     this.allPosts = function() { // Grabs all posts
-      return $http.get('/posts').then(all => all.data)
+      return $http.get('https://yogabuddy-server.herokuapp.com/posts').then(all => all.data)
     }
 
     //

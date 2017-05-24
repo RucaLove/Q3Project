@@ -12,7 +12,7 @@
   function PostsController(PostsService) {
     const vm = this
     vm.$onInit = onInit
-    vm.likes = likes
+    // vm.likes = likes
     // vm.sort = sort
     // vm.sortPosts = sortPosts
 
@@ -23,9 +23,9 @@
         })
     }
 
-    function likes(post, dir) {
-      PostsService.$like(post, dir) // Like functionality
-    }
+    // function likes(post, dir) {
+    //   PostsService.$like(post, dir) // Like functionality
+    // }
 
   // THIS IS BROKEN ATM
 
