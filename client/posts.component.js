@@ -3,7 +3,7 @@
 
   angular.module('app')
     .component('posts', {
-      templateUrl: '/templates/posts.template.html',
+      templateUrl: 'posts.template.html',
       controller: PostsController,
     })
 
@@ -14,7 +14,7 @@
     vm.$onInit = onInit
     vm.likes = likes
     // vm.sort = sort
-    vm.sortPosts = sortPosts
+    // vm.sortPosts = sortPosts
 
     function onInit() {
       PostsService.allPosts() // Grabs all Posts

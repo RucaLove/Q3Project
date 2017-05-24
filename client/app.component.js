@@ -3,7 +3,7 @@
 
   angular.module('app')
     .component('app', {
-      templateUrl: '/templates/app.template.html', // NAV BAR TEMPLATE
+      // templateUrl: '/templates/app.template.html', // NAV BAR TEMPLATE
       controller: mainController
     })
 
