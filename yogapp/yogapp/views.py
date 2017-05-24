@@ -27,6 +27,6 @@ def get_all_posts(request):
 
 def get_post_by_id(request, id):
     cursor = connection.cursor()
-    cursor.execute("SELECT * FROM yoga_posts Where id = id")
+    cursor.execute("SELECT * FROM yoga_posts Where id = (id)")
     result = cursor.fetchall() # all results
     return JsonResponse(result, safe=False)
