@@ -8,7 +8,7 @@ FILE STRUCTURE:
 - CLIENT
   - templates
 
-- SERVER
+- SERVER 
 
 GENERAL: Longest possible name
 
