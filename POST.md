@@ -8,7 +8,7 @@ from django.shortcuts import render
 def add(request):
   # request type
     if request.method == 'POST':
-      # RecipeForm = the name of model (AKA Users AKA yoga_user tables)
+      # RecipeForm = the name of model (AKA Users AKA yoga_users tables)
       # ASSIGNING Form = RecipeForm(request.post)
             form = RecipeForm(request.POST)
             if form.is_valid():
@@ -18,6 +18,6 @@ def add(request):
                     return HttpResponseRedirect(reverse('app_name:url'))
             else:
                 messages.error(request, "Error")
-      # SEND TO PLACE AND RUN FUNCTION RecipeForm() 
+      # SEND TO PLACE AND RUN FUNCTION RecipeForm()
     return render(request, 'myApp/add.html', {'form': RecipeForm()})
     ```
