@@ -121,3 +121,21 @@ h6 {
 .dateJoinText{
   text-align: center;
 }
+
+/*createUser CSS*/
+
+.createUser{
+  float: none;
+  margin-left: 15%;
+}
+
+.createUserbutton{
+  margin-left: 18%;
+}
+
+.center-block{
+  margin-left: auto;
+  display: block;
+  margin-right: auto;
+  float: none;
+}
