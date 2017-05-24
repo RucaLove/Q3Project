@@ -76,12 +76,48 @@ h6 {
 }
 
 /*CSS FOR POSES TEMPLATE*/
-.posePhoto{
-  width: 200px;
-  height: 200px;
 
+/*sizing control for pose photo*/
+.posePhoto{
+  width: 250px;
+  height: 250px;
 }
+
+/*sizing controll for chakra photo, WANT variable width*/
 .chakraPhoto{
-  width: 80px;
   height: 80px;
+}
+.poseName{
+  text-align: center;
+  font-size: 60px;
+  text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
+.dificultyText{
+  text-align: center;
+  font-size: 30px;
+  text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
+
+/*CSS for User Profile*/
+
+.profilePhoto{
+  width:16em;
+  height:16em;
+  border-radius: 8em;
+  border: 5px solid black;
+}
+.userProfileBadges{
+  width: 3em;
+  height: 3em:
+}
+.badgeContainer{
+  margin-top: -3em;
+}
+.userNameText{
+  text-align: center;
+  font-size: 3em;
+  text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
+.dateJoinText{
+  text-align: center;
 }
